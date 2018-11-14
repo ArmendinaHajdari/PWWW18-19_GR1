@@ -12,3 +12,9 @@ html,body,footer,hgroup,nav,article,section,figure,figcaption,h1,h2,h3,ul,li,bod
   width: 25%;
 margin-top: 5px;
 padding: 10px;}
+
+.majtas{margin-right: 30px;}
+nav ul li{list-style: none;
+          display: inline;
+          margin-left: 70px;
+          text-decoration: none;}
