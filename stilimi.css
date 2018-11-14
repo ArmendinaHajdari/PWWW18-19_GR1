@@ -27,8 +27,11 @@ header nav{
   padding: 25px;
   margin-left: 50%;
 }
-a{color:white;}
-a:hover{color: lime;}
+nav a{color:white;
+text-decoration:none;}
+nav a:hover{color:lime;}
+a{text-decoration :none;
+color:lime;}
 header,h3{
   background-color: black;
 }
