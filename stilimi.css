@@ -17,6 +17,7 @@ html,body,footer,hgroup,nav,article,section,figure,figcaption,h1,h2,h3,ul,li,bod
 
     }
 .majtas{margin-right: 27px;}
+.stopfloating{clear:left;}
 
 nav ul li{list-style: none;
           display: inline;
