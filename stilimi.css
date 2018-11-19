@@ -5,7 +5,9 @@ html,body,footer,hgroup,nav,article,section,figure,figcaption,h1,h2,h3,ul,li,bod
   font-size:100;
   vertical-align:baseline;
   border:0;}
-
+.kryetitulli{font-size: 24px;
+             font-style: italic;
+           font-weight: bold;}
   h1,h2,h3{font-family: arial,helvetica,sans-serif;}
   h1,h3{color: #00FF00;
   margin-left: 10px;}
