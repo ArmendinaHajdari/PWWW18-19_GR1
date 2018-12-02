@@ -27,8 +27,15 @@ padding-top: 15px;}
   float:left;
   width: 700px;
   }
-div p a{color:#228B22;}
 
+   .kolona2{
+     float:left;
+     width: 150px;
+    margin-right: 17px;
+
+   }
+div p a{color:#228B22;}
+div  a{color:#228B22;}
 nav ul li{list-style: none;
           display: inline;
           margin-left: 70px;
