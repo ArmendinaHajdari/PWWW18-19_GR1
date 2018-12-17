@@ -60,5 +60,6 @@ footer{
   padding:55px;
 }
 footer div ul{color:white;
+  list-style: circle;
 }
 footer  p{color: white;}
