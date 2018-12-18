@@ -55,6 +55,19 @@ color:lime;}
 header,h3{
 background-color: black;
 }
+td img{
+position: relative;bottom: 70px;
+
+}
+
+#tabela2 {
+    position:relative;bottom:  225px;left:  260px
+
+
+}
+/*div img {
+  position: relative;bottom: 70px;
+}*/
 footer{
   background-color: black;
   padding:55px;
