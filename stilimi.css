@@ -24,6 +24,8 @@ padding-top: 15px;}
     margin-left: 7px;
 background-color: rgb(220,220,220);
     }
+    
+
 .majtas{margin-right: 27px;}
 .stopfloating{clear:left;}
 .kolona1{
@@ -41,7 +43,7 @@ div p a{color:#228B22;}
 div  a{color:#228B22;}
 nav ul li{list-style: none;
           display: inline;
-          margin-left: 70px;
+          margin-left: 50px;
           text-decoration: none;
         color:white;}
 header nav{
