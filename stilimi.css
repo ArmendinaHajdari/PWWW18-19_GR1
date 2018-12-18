@@ -56,19 +56,16 @@ color:lime;}
 header,h3{
 background-color: black;
 }
-td img{
-position: relative;bottom: 70px;
+/*td img{ padding-bottom: 00px;}*/
 
+/*position: relative;bottom: 80px;*/
+ td  div img{
+
+
+margin-bottom: 150px;
 }
 
-#tabela2 {
-    position:relative; bottom: 225px; left: 260px;
 
-
-}
-/*div img {
-  position: relative;bottom: 70px;
-}*/
 footer{
   background-color: black;
   padding:55px;
