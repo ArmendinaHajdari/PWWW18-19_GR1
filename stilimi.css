@@ -7,7 +7,8 @@ html,body,footer,hgroup,nav,article,section,figure,figcaption,h1,h2,h3,ul,li,bod
   border:0;}
 .kryetitulli{font-size: 24px;
              font-style: italic;
-           font-weight: bold;}
+           font-weight: bold;
+         text-align: center;}
   h1,h2,h3{font-family: arial,helvetica,sans-serif;}
   h1,h3{color: #228B22;
   margin-left: 10px;
@@ -61,7 +62,7 @@ position: relative;bottom: 70px;
 }
 
 #tabela2 {
-    position:relative;bottom:  225px;left:  260px
+    position:relative; bottom: 225px; left: 260px;
 
 
 }
