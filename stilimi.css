@@ -30,13 +30,13 @@ padding-top: 15px;}
     height: 250px;
     padding: 0px;
     overflow: hidden;
-
+margin-right: 27px;
     margin-left: 7px;
 background-color: rgb(220,220,220);
     }
 
 
-.majtas{margin-right: 27px;}
+
 .stopfloating{clear:left;
 }
 td a{color:green;}
