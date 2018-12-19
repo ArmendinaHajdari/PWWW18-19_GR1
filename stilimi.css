@@ -26,11 +26,11 @@ h1{padding-left: 5px;
 padding-top: 15px;}
   .kolona{
     float:left;
-    width: 22%;
+    width: 20%;
     height: 250px;
     padding: 0px;
     overflow: hidden;
-<<<<<<< HEAD
+
     margin-left: 37px;
 background-color: rgb(220,220,220);
     }
@@ -40,7 +40,7 @@ background-color: rgb(220,220,220);
 .stopfloating{clear:left;
 }
 td a{color:green;}
-=======
+
     margin-left: 10px;
     margin-right: 25px;
 background-color: rgb(210,210,210);
@@ -49,7 +49,6 @@ background-color: rgb(210,210,210);
 
 
 .stopfloating{clear:left;}
->>>>>>> e8efaa351b34899f3277a1be427de57958d18b90
 .kolona1{
   float:left;
   width: 700px;
