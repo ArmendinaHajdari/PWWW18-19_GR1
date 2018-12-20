@@ -37,7 +37,8 @@ background-color: rgb(220,220,220);
 
 
 
-.stopfloating{clear:left;}
+.stopfloating{clear:left;
+margin: 40px; border-color:lightgrey;}
 td a{color:green;}
 
     margin-left: 10px;
