@@ -39,20 +39,16 @@ background-color: rgb(220,220,220);
 
 .stopfloating{clear:left;
 margin: 40px;
-<<<<<<< HEAD
+
 border-width: 1px;
 border-color: lightgrey;
 opacity: 0.2;
 }
-=======
-align:center;}/* border-color:lightgrey;}*/
->>>>>>> ec2e00e9c1b3a1750457a634e9fbfa6b6e689204
+
+
+
 td a{color:green;}
 
-/*    {margin-left: 10px;
-    margin-right: 25px;
-background-color: rgb(210,210,210);
-    }*/
 
 .kolona1{
   float:left;
