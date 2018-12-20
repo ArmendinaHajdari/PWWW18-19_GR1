@@ -94,3 +94,12 @@ footer div ul{color:white;
   list-style: circle;
 }
 footer  p{color: white;}
+#panel,#flip{
+
+       border:1px solid #999;
+
+     }
+     #panel{
+
+       display:none;
+     }
