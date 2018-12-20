@@ -38,17 +38,15 @@ background-color: rgb(220,220,220);
 
 
 .stopfloating{clear:left;
-margin: 40px; border-color:lightgrey;}
+margin: 40px;
+align:center;}/* border-color:lightgrey;}*/
 td a{color:green;}
 
-    margin-left: 10px;
+/*    {margin-left: 10px;
     margin-right: 25px;
 background-color: rgb(210,210,210);
-    }
+    }*/
 
-
-
-.stopfloating{clear:left;}
 .kolona1{
   float:left;
   width: 700px;
@@ -57,10 +55,9 @@ background-color: rgb(210,210,210);
    .kolona2{
      float:left;
      width: 150px;
-    margin-right: 17px;
+    margin-right: 17px; }
 
-   }
-   nav ul li |{color:red;}
+   nav ul li {color:red;}
 div p a{color:#228B22;}
 div  a{color:#228B22;}
 nav ul li{list-style: none;
