@@ -35,7 +35,16 @@ margin-right: 2%;
 background-color: rgb(220,220,220);
     }
 
+    .panel{
 
+      width: 20%;
+      height: 250px;
+      padding: 0px;
+      overflow: hidden;
+    margin-right: 2%;
+      margin-left: 2.8%;
+    background-color: rgb(220,220,220);
+      }
 
 .stopfloating{clear:left;
 margin: 40px;
@@ -95,3 +104,7 @@ footer div ul{color:white;
   list-style: circle;
 }
 footer  p{color: white;}
+.panel{
+width: 20%;
+display: none;
+}
