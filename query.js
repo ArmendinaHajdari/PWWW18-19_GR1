@@ -1,5 +1,20 @@
 $(function(){
-            $(".kolona").click(function(){
-               $(".panel").slideToggle("slow")
+            $(".kolona5").click(function(){
+               $(".panel5").slideToggle("slow")
             });
         });
+        $(function(){
+                    $(".kolona6").click(function(){
+                       $(".panel6").slideToggle("slow")
+                    });
+                });
+                $(function(){
+                            $(".kolona3").click(function(){
+                               $(".panel3").slideToggle("slow")
+                            });
+                        });
+                        $(function(){
+                                    $(".kolona4").click(function(){
+                                       $(".panel4").slideToggle("slow")
+                                    });
+                                });
