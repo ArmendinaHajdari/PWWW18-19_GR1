@@ -8,7 +8,8 @@ html,body,footer,hgroup,nav,article,section,figure,figcaption,h1,h2,h3,ul,li,bod
   .mySlides1 {display: block;}
 
   .mySlides {display: none;
-  position: absolute;bottom: 300px;
+  position: absolute;
+  bottom: 300px;
   }
 
   .slideshow-container {
