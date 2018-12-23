@@ -200,18 +200,26 @@ div p a{color:#228B22;}
 div  a{color:#228B22;}
 nav ul li{list-style: none;
           display: inline;
-          margin-left: 50px;
+          margin-left: 45px;
+          padding-right: 10px;
           text-decoration: none;
-        color:white;}
+          color:white;
+         border-right:  1px solid #555;
+         text-shadow:  5px -5px 6px dimgrey;
+      }
+
+ nav li:last-child {
+  border-right:  none;
+}
 header nav{
   padding: 25px;
-  margin-left: 50%;
+  margin-left:50%;
 }
 nav a{color:white;
 text-decoration:none;}
 nav a:hover{color:#228B22;}
-a{text-decoration :none;
-color:lime;}
+a{text-decoration :none;}
+
 header,h3{
 background-color: black;
 }
