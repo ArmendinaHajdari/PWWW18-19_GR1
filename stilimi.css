@@ -133,7 +133,7 @@ background-color: rgb(220,220,220);
             .kolona3{
                 float:left;
                 width: 260px;
-                padding: 0px;
+              padding: 0px;
                 overflow: hidden;
             margin-right: 2.1%;
                 margin-left: 2.8%;
@@ -214,6 +214,47 @@ a{text-decoration :none;
 color:lime;}
 header,h3{
 background-color: black;
+}
+
+.tdata1{
+width:250px;
+height:100px;
+vertical-align: top;
+}
+.tpaneli1{
+  width:250px;
+vertical-align: top;
+  display:none;
+}
+.tdata2{
+width:250px;
+height:100px;
+vertical-align: top;
+}
+.tpaneli2{
+  width:250px;
+vertical-align: top;
+  display:none;
+}
+.tdata3{
+width:250px;
+height:100px;
+vertical-align: top;
+}
+.tpaneli3{
+  width:250px;
+vertical-align: top;
+  display:none;
+}
+.tdata4{
+width:250px;
+height:100px;
+vertical-align: top;
+}
+.tpaneli4{
+  width:250px;
+vertical-align: top;
+  display:none;
 }
 
 .formulari {
