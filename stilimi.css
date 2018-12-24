@@ -140,7 +140,7 @@ background-color: rgb(220,220,220);
             .kolona3{
                 float:left;
                 width: 260px;
-                padding: 0px;
+              padding: 0px;
                 overflow: hidden;
             margin-right: 2.1%;
                 margin-left: 2.8%;
@@ -207,21 +207,82 @@ div p a{color:#228B22;}
 div  a{color:#228B22;}
 nav ul li{list-style: none;
           display: inline;
-          margin-left: 50px;
+          margin-left: 45px;
+          padding-right: 10px;
           text-decoration: none;
-        color:white;}
+          color:white;
+         border-right:  1px solid #555;
+         text-shadow:  5px -5px 6px dimgrey;
+      }
+
+ nav li:last-child {
+  border-right:  none;
+}
 header nav{
   padding: 25px;
+<<<<<<< HEAD
   margin-left: 50%;
 
+=======
+  margin-left:50%;
+>>>>>>> 096463be5a45037a6a7a8f18936b1f840757cd66
 }
 nav a{color:white;
 text-decoration:none;}
 nav a:hover{color:#228B22;}
-a{text-decoration :none;
-color:lime;}
+a{text-decoration :none;}
+
 header,h3{
 background-color: black;
+}
+
+.tdata1{
+width:250px;
+height:100px;
+vertical-align: top;
+padding: 5px;
+}
+.tpaneli1{
+  width:250px;
+vertical-align: top;
+padding: 5px;
+  display:none;
+}
+.tdata2{
+width:250px;
+height:100px;
+padding: 5px;
+vertical-align: top;
+}
+.tpaneli2{
+  width:250px;
+  padding: 5px;
+vertical-align: top;
+  display:none;
+}
+.tdata3{
+width:250px;
+height:100px;
+padding: 5px;
+vertical-align: top;
+}
+.tpaneli3{
+  width:250px;
+vertical-align: top;
+padding: 5px;
+  display:none;
+}
+.tdata4{
+width:250px;
+height:100px;
+padding: 5px;
+vertical-align: top;
+}
+.tpaneli4{
+  width:250px;
+vertical-align: top;
+padding: 5px;
+  display:none;
 }
 
 .formulari {
