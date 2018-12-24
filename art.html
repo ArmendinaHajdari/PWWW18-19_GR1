@@ -13,11 +13,17 @@
 <script src=query2.js>  </script>
 <style type="text/css">
 
-  body{background-color: rgba(106, 60, 200, 0.);}
+  body{background-color:#FFE4E1;}
   nav a:hover{color:hsl(0, 100%,15%);}
 table a{color:hsl(0, 100%,15%);}
+table{
+  background-color:#F5F5F5;
+  border-style: hidden;
+  border-color: lightpink;
+}
 a{color:hsl(0, 100%,15%);}
-.rreshti{font-family:arial,helvetica;
+.rreshti{
+  font-family:arial,helvetica;
    font-weight:700;
     color:hsl(0, 100%,15%);
   position: relative;
@@ -41,41 +47,22 @@ top: 60px;}
   </nav>
 
   </header>
+<div>
 
-  <div class="mySlides1 fade" >
+  <div class="mySlides fade">
   <img src="images/starry-night-art-plainVG.jpg" style="width:1350px; height:220px">
    <div class="text">Starry night</div>
   </div>
 
-
-
-
-      <div class="mySlides fade"
+   <div class="mySlides fade" id="foto1">
         <img src="images/masakra_e_te_pafajshmeve.jpg" style="width:1350px; height:220px">
     <div class="text">Masakra e te pafajshmeve</div>
       </div>
 
-  <div class="mySlides fade" >
-  <img src="images/masakra_e_te_pafajshmeve.jpg" style="width:1350px; height:220px">
+  <div class="mySlides fade" id="foto2">
+  <img src="images/monalisa.jpg" style="width:1350px; height:220px">
  <div class="text">Mona Lisa</div>
   </div>
-
-
-
-      <div class="mySlides fade" >
-      <img src="images/monalisa.jpg" style="width:1350px; height:220px">
-     <div class="text">Mona Lisa</div>
-      </div>
-
-      <div class="mySlides fade">
-      <img src="images/starry-night-art-plainVG.jpg" style="width:1350px; height:220px">
-      <div class="text">Starry night</div>
-      </div>
-
-
-
-
-
 
       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
       <a class="next" onclick="plusSlides(1)">&#10095;</a>
