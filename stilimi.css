@@ -7,8 +7,15 @@ html,body,footer,hgroup,nav,article,section,figure,figcaption,h1,h2,h3,ul,li,bod
   border:0;}
   .mySlides1 {display: block;}
 
-  .mySlides {display: none;
-  position:absolute;bottom: 300px;
+  .mySlides {
+  /*  display: none; */
+  position:relative;
+  top:0px;
+
+
+  }
+#foto1, #foto2, #foto3 {
+    display: none;
   }
 
   .slideshow-container {
@@ -206,6 +213,7 @@ nav ul li{list-style: none;
 header nav{
   padding: 25px;
   margin-left: 50%;
+
 }
 nav a{color:white;
 text-decoration:none;}
