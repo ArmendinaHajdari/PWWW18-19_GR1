@@ -69,18 +69,11 @@ html,body,footer,hgroup,nav,article,section,figure,figcaption,h1,h2,h3,ul,li,bod
     animation-duration: 1.5s;
   }
 
-
-
-
-
-
-
-
-
 .kryetitulli{font-size: 24px;
              font-style: italic;
            font-weight: bold;
          text-align: center;
+         color:black;
        }
        .titulli{ font-size: 24px;
                     font-style: italic;
@@ -208,7 +201,7 @@ nav ul li{list-style: none;
           color:white;
          border-right:  1px solid #555;
          text-shadow:  5px -5px 6px dimgrey;
-      
+
       }
 
  nav li:last-child {
