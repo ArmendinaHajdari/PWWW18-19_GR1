@@ -220,12 +220,12 @@ nav ul li{list-style: none;
 }
 header nav{
   padding: 25px;
-<<<<<<< HEAD
+
   margin-left: 50%;
 
-=======
+
   margin-left:50%;
->>>>>>> 096463be5a45037a6a7a8f18936b1f840757cd66
+
 }
 nav a{color:white;
 text-decoration:none;}
