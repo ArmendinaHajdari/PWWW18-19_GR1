@@ -189,6 +189,10 @@ opacity: 0.2;
      float:left;
      width: 150px;
     margin-right: 17px; }
+    .fgaleri{
+      float:left;
+      width:300px;
+    }
 
    nav ul li {color:red;}
 div p a{color:#228B22;}

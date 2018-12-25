@@ -11,14 +11,16 @@
 <script src="javascript.js" ></script>
 <script src=query.js>  </script>
 <script src=query2.js>  </script>
-<!--<script > var canvas = document.getElementById("myCanvas");
-var ctx = canvas.getContext("2d");
-ctx.font = "30px Arial";
-ctx.fillText("Earth without art it is just eh",40,50);
-</script>-->
+<script src="canvas.js"></script>
+<script src="canvastitulli.js"></script>
+
+
+
+
 
 <style type="text/css">
-  body{background-color:#f9e6ff;}
+  body{background-color:#f9e6ff;
+  }
   nav a:hover{color:hsl(0, 100%,15%);}
 table a{color:hsl(0, 100%,15%);}
 table{
@@ -75,16 +77,15 @@ top: 60px;}
       </div>
       <br>
       <br>
-<div style="color:blue;">
 
+      <canvas id="titull" width="500" height="100"
+        style="border:1px solid #F5F5F5;  margin-left:25%">
+        Your browser does not support the canvas element.
+        </canvas>
 
-  <!--    <canvas id="myCanvas" width="500" height="100"
-  style="border:1px solid #F5F5F5;  margin-left:25%">
-  Your browser does not support the canvas element.
-  </canvas></div>-->
-<p class="kryetitulli">
+<!--<p class="kryetitulli">
 "Earth without art it's just eh."
-</p>
+</p>-->
 <br>
 
 <hr class="stopfloating">
@@ -198,8 +199,18 @@ Sipas Kuba Shand-Baptistes, kapitujt kritikues ndaj presidentit Trump b&euml;hen
 “N&euml; k&euml;t&euml; lib&euml;r zonja Obama &euml;sht&euml; e ndjeshme, ju b&euml;n p&euml;r t&euml; qeshur dhe ju motivon p&euml;r t&euml; qen&euml; versioni m&euml; i mir&euml; i vetvetes, pa ju l&euml;n&euml; ta harroni t&euml; shkuar&euml;n dhe sakrificat q&euml; u kan&euml; b&euml;r&euml; t’i viheni kund&euml;r barrierave tamam siç ka b&euml;r&euml; ajo”, deklaron ai.</p>
 </td>
 </tr>
+
 </table>
 </section>
+
+<p >Galeri e pikturave me te <span style="font-style:italic;">pikturave me te njohura </span>: <br>
+
+<canvas id="myCanvas" width="240" height="297"
+style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.
+<img id="scream" width="220" height="277" src="images/scream.png" alt="The Scream">
+</canvas></p>
+
 </body>
 
 <footer>
