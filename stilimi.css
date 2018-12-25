@@ -73,7 +73,7 @@ html,body,footer,hgroup,nav,article,section,figure,figcaption,h1,h2,h3,ul,li,bod
     top:0px        ;
     /* At the bottom. Use top:0 to append it to the top */
     background: rgb(0, 0, 0); /* Fallback color */
-    background: rgba(0, 0, 0, 0.35); /* Black background with 0.5 opacity */
+    background: rgba(0, 0, 0, 0.40); /* Black background with 0.5 opacity */
     color: white; /* Grey text */
     width: 460px; /* Full width */
     padding: 20px; /* Some padding */
@@ -85,14 +85,36 @@ color:white;
 font-family:Cursive;
 font-size: 35px;
 text-align: center;
+position: relative;left: 20px;
+}
+.mySlides .content1 {
+  position:absolute; /* Position the background text */
+  bottom: 5px;
+  top:150px        ;
+  /* At the bottom. Use top:0 to append it to the top */
+  background:rgb(250, 250, 250); /* Fallback color */
+  background:rgba(250, 250, 250, 0.6);
 
+  width:240px;
+  height:25px;/* Full width */
+  padding:20px; /* Some padding */
+  margin-left:25px;
 
+}
+.description1{
+color:black;
+font-family:fantasy;
+font-size: 40px;
+text-align:left;
+position: relative;bottom: 20px;
 }
 
 
 
 
-.kryetitulli{font-size: 24px;
+
+
+.kryetitulli{font-size: 34px;
              font-style: italic;
              font-family: fantasy;
          text-align: center;
