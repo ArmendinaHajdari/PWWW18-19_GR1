@@ -94,12 +94,13 @@ text-align: center;
 
 .kryetitulli{font-size: 24px;
              font-style: italic;
-           font-weight: bold;
+             font-family: fantasy;
          text-align: center;
          color:black;
        }
        .titulli{ font-size: 24px;
                     font-style: italic;
+
                   font-weight: bold;
                 text-align: left;
                 color: white;
@@ -301,6 +302,17 @@ padding: 5px;
 
   position: relative;left:1020px;
   position: relative;bottom: 20px;
+}
+.photos{
+-webkit-transition: -webkit-transform: 3s;
+-moz-transition:  -moz-transform: 3s;
+-o-transition:  -o-transform: 3s;
+}
+.photos:hover{
+  padding-left: 35px;
+  -webkit-transform:scale(3,3);
+  -moz-transform:scale(3,3);
+  -o-transform:scale(3,3);
 }
 footer{
   background-color: black;
