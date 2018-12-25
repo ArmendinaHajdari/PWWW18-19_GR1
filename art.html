@@ -35,7 +35,20 @@ a{color:hsl(0, 100%,15%);}
     color:hsl(0, 100%,15%);
   position: relative;
 top: 60px;}
-
+footer div img{
+  position: relative;
+  padding-left: 900px;
+  left:190px;
+  -webkit-animation:logo ease 5s 1s 2 alternate;
+  -moz-animation:logo ease 5s 1s 2 alternate;
+}
+@-webkit-keyframes logo {
+0%  {opacity: 0;left:50px; top: 0px;}
+25%  {opacity: 1;left:0px; top: 50px;}
+50%  {opacity: 0;left:50px; top: 100px;}
+75%  {opacity: 1;left:100px; top: 50px;}
+100%  {opacity: 0;left:50px; top: 0px;}
+}
 </style>
 </head>
 <body>
@@ -54,6 +67,7 @@ top: 60px;}
   </nav>
 
   </header>
+  <hr class="stopfloating2" style="border-color:hsl(0, 100%,15%);" ></hr>
 <div>
 
   <div class="mySlides fade">
@@ -219,10 +233,17 @@ Your browser does not support the HTML5 canvas tag.
   </div>
 
   <div="kolona1">
-  <p >Sponsor&euml;t:  <p style="font-style:italic;">AS DESIGN <br> H&C </p> </p>
+  <p>Sponsor&euml;t:
+     <p>
+    <ol >
+      <li>AS DESIGN</li>
+      <li>H&C</li>
+    </ol>
+  </p> </p>
   </div>
+
   <div class="kolona2">
-    <img src="images/logo.png" width="100px" height="100px">
+    <img src="images/logo1.jpg" width="80px" height="80px">
   </div>
 
   <p class="stopfloating"  style="font-weight:bold;">
