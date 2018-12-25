@@ -5,7 +5,7 @@ html,body,footer,hgroup,nav,article,section,figure,figcaption,h1,h2,h3,ul,li,bod
   font-size:100;
   vertical-align:baseline;
   border:0;}
-  .mySlides1 {display: block;}
+
 
   .mySlides {
   /*  display: none; */
@@ -15,7 +15,7 @@ html,body,footer,hgroup,nav,article,section,figure,figcaption,h1,h2,h3,ul,li,bod
 
 
   }
-#foto1, #foto2, #foto3 {
+#foto1, #foto2{
     display: none;
   }
 
@@ -92,18 +92,11 @@ text-align: center;
 
 
 
-
-
-
-
-
-
-
-
 .kryetitulli{font-size: 24px;
              font-style: italic;
            font-weight: bold;
          text-align: center;
+         color:black;
        }
        .titulli{ font-size: 24px;
                     font-style: italic;
@@ -210,11 +203,6 @@ border-color: lightgrey;
 opacity: 0.2;
 }
 
-
-
-td a{color:green;}
-
-
 .kolona1{
   float:left;
   width: 700px;
@@ -224,6 +212,10 @@ td a{color:green;}
      float:left;
      width: 150px;
     margin-right: 17px; }
+    .fgaleri{
+      float:left;
+      width:300px;
+    }
 
    nav ul li {color:red;}
 div p a{color:#228B22;}
@@ -236,19 +228,16 @@ nav ul li{list-style: none;
           color:white;
          border-right:  1px solid #555;
          text-shadow:  5px -5px 6px dimgrey;
+
       }
 
  nav li:last-child {
-  border-right:  none;
+  border-right:none;
 }
 header nav{
-  padding: 25px;
-
-  margin-left: 50%;
-
-
-  margin-left:50%;
-
+padding: 25px;
+margin-left: 50%;
+margin-left:50%;
 }
 nav a{color:white;
 text-decoration:none;}
