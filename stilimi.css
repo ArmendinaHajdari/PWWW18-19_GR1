@@ -230,6 +230,20 @@ border-width: 100%;
       float:left;
       width:300px;
     }
+    .videot{
+    position: relative;
+    width: 300px;
+    height: 250px;
+    left:75%;
+    bottom:350px;
+    }
+    .videot1{
+    position: relative;
+    width: 300px;
+    height: 250px;
+    left:75%;
+    bottom:250px;
+    }
 
    nav ul li {color:red;}
 div p a{color:#228B22;}
