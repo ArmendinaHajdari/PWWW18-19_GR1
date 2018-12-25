@@ -203,6 +203,14 @@ border-width: 1px;
 border-color: lightgrey;
 opacity: 0.2;
 }
+.stopfloating2{clear:left;
+
+margin: 0px;
+border: 1.5px solid green;
+border-width: 100%;
+
+
+}
 
 .kolona1{
   float:left;
