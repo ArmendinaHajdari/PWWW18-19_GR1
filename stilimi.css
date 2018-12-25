@@ -322,6 +322,20 @@ padding: 5px;
   -moz-transform:scale(3,3);
   -o-transform:scale(3,3);
 }
+footer div img{
+  position: relative;
+  padding-left: 250px;
+  left:150px;
+  -webkit-animation:logo ease 5s 1s 2 alternate;
+  -moz-animation:logo ease 5s 1s 2 alternate;
+}
+@-webkit-keyframes logo {
+0%  {opacity: 0;left:50px; top: 0px;}
+25%  {opacity: 1;left:0px; top: 50px;}
+50%  {opacity: 0;left:50px; top: 100px;}
+75%  {opacity: 1;left:100px; top: 50px;}
+100%  {opacity: 0;left:50px; top: 0px;}
+}
 footer{
   background-color: black;
   padding:55px;
