@@ -13,6 +13,7 @@ html,body,footer,hgroup,nav,article,section,figure,figcaption,h1,h2,h3,ul,li,bod
   top:0px;
 
 
+
   }
 #foto1, #foto2, #foto3 {
     display: none;
@@ -22,13 +23,14 @@ html,body,footer,hgroup,nav,article,section,figure,figcaption,h1,h2,h3,ul,li,bod
     max-width: 1000px;
     position: relative;
     margin: auto;
+
   }
 
 
   .prev {
     cursor: pointer;
     padding: 16px;
-    position: relative;bottom:-65px;
+    position:relative;bottom:130px;
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -39,7 +41,7 @@ html,body,footer,hgroup,nav,article,section,figure,figcaption,h1,h2,h3,ul,li,bod
   .next {
     cursor: pointer;
     padding: 16px;
-    position: relative;bottom:-65px;
+    position: relative;bottom:130px;
     position: relative;left:1250px;
     color: white;
     font-weight: bold;
@@ -62,12 +64,33 @@ html,body,footer,hgroup,nav,article,section,figure,figcaption,h1,h2,h3,ul,li,bod
 
 
 
-  .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
+
+
+
+  .mySlides .content {
+    position: absolute; /* Position the background text */
+    bottom: 5px;
+    top:0px        ;
+    /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.35); /* Black background with 0.5 opacity */
+    color: white; /* Grey text */
+    width: 460px; /* Full width */
+    padding: 20px; /* Some padding */
+    margin-left: 850px;
+
   }
+  .description{
+color:white;
+font-family:Cursive;
+font-size: 35px;
+text-align: center;
+
+
+}
+
+
+
 
 
 
