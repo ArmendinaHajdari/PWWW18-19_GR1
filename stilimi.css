@@ -212,6 +212,19 @@ border-width: 100%;
 
 }
 
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  position: relative;left:165px;
+}
+.shigjeta{position: relative;left: 155px;}
+
+.right1{position: relative;left: 200px;}
+.dots{position: relative;left: 190px;}
+
 .kolona1{
   float:left;
   width: 700px;
