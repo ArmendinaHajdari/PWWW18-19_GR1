@@ -11,7 +11,6 @@
 <script src="javascript.js" ></script>
 <script src=query.js>  </script>
 <script src=query2.js>  </script>
-<script src="canvas.js"></script>
 <script src="canvastitulli.js"></script>
 
 <style type="text/css">
@@ -85,14 +84,14 @@ footer div img{
       <br>
       <br>
 
-      <canvas id="titull" width="500" height="100"
+    <!--  <canvas id="titull" width="500" height="100"
         style="border:1px solid #F5F5F5;  margin-left:25%">
         Your browser does not support the canvas element.
         </canvas>
-
-<!--<p class="kryetitulli">
+-->
+<p class="kryetitulli">
 "Earth without art it's just eh."
-</p>-->
+</p>
 <br>
 
 <hr class="stopfloating">
@@ -209,14 +208,23 @@ Sipas Kuba Shand-Baptistes, kapitujt kritikues ndaj presidentit Trump b&euml;hen
 </tr>
 </table>
 </section>
-<!--
-<p style="float:right; position: relative; right:160px;bottom:350px;">Galeri e pikturave me te <span style="font-style:italic;">pikturave me te njohura </span>: <br>
-<canvas id="myCanvaS" width="200px" height="297px" style="border:1px solid #d3d3d3;">
+<div class="videot">
+<p style="font-weight:bold:">Galeri <span style="font-style:italic;">piktura m&euml; e shitur  </span>e vitit: <br>
+<canvas id="myCanvas" width="230px" height="280px" style="border:1px solid #d3d3d3;">
+<img id="scream" src="images/scream.png" width="220px" height="277px"  alt="The Scream">
 Your browser does not support the HTML5 canvas tag.
-<img id="scream" src="images/scream.png" width="220" height="277"  alt="The Scream">
-</canvas></p>
--->
+</canvas>
 
+<script>
+window.onload = function() {
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+    var img = document.getElementById("scream");
+   ctx.drawImage(img, 10, 10);
+};
+</script>
+
+</div>
 </body>
 
 <footer>
