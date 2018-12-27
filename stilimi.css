@@ -281,11 +281,12 @@ i {
       width:300px;
     }
     .videot{
-    position: relative;
+    position:relative;
     width: 300px;
     height: 250px;
     left:75%;
     bottom:400px;
+
     }
 
    nav ul li {color:red;}
@@ -368,14 +369,12 @@ padding: 5px;
   display:none;
 }
 
-
-<<<<<<< HEAD
   position: relative;left:1020px;
   position: relative;bottom: 20px;
 }
 
-=======
->>>>>>> 52ac2ab2fc7b6898d11ec115d94265292e4597b2
+
+
 .photos{
 -webkit-transition: -webkit-transform: 3s;
 -moz-transition:  -moz-transform: 3s;
@@ -388,13 +387,7 @@ padding: 5px;
   -o-transform:scale(3,3);
 
 }
-.formulari {
-width: 50px;
-  position: relative;
-  left:999px;
-  position: relative;
-
-}
+.
 .linkBlock{
 
   width: 350px;
@@ -415,8 +408,29 @@ width: 50px;
 .draganddrop{
   position: relative;
   top:330px;
+
+}
+.form{
+  position:relative;bottom: 580px;
+  left:1010px;
+
+}
+.button{
+ color:white;
+ border-radius:3px;
+ width:80px;
+ height:30px;
+ background-color:lime;
+ border-color:lime;
 }
 
+.formulari {
+
+width: 300px;
+
+
+
+}
 .aboutUs{
   margin-top: 50px;
   color: dimgrey;
@@ -431,7 +445,7 @@ top:330px;
 .contactUs{
 position: relative;
 left: 999px;
-bottom: 20px;
+bottom: 600px;
   color: dimgrey;
   width: 300px;
   padding: 15px;
