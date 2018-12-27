@@ -387,31 +387,34 @@ padding: 5px;
   -o-transform:scale(3,3);
 
 }
-.
-.linkBlock{
 
-  width: 350px;
+.linkBlock{
   position: relative;
-  bottom: 120px;
-  left: 490px;
+  left:350px;
+  bottom: 440px;
+  width: 350px;
+
   color: white;
-  padding: 3px;
+ padding: 3px;
 /*  border-left: 1px solid dimgrey;
   border-right:  1px solid dimgrey;*/
 
 }
 .lista1{
+  position: relative;
+  top:20px;
+
   list-style-type: square;
   list-style-position: inside;
 
 }
 .draganddrop{
   position: relative;
-  top:330px;
+  bottom: 40px;
 
 }
 .form{
-  position:relative;bottom: 580px;
+  position:relative;bottom: 560px;
   left:1010px;
 
 }
@@ -432,7 +435,7 @@ width: 300px;
 
 }
 .aboutUs{
-  margin-top: 50px;
+/*  margin-top: 50px;*/
   color: dimgrey;
   width: 300px;
   padding: 35px;
@@ -440,12 +443,13 @@ width: 300px;
   border: 1px groove dimgrey;
   overflow-x: hidden;
 position: relative;
-top:330px;
+bottom: 50px;
+right: 50px;
 }
 .contactUs{
 position: relative;
 left: 999px;
-bottom: 600px;
+bottom: 580px;
   color: dimgrey;
   width: 300px;
   padding: 15px;
