@@ -388,36 +388,16 @@ padding: 5px;
 
 }
 
-.linkBlock{
-  position: relative;
-  left:350px;
-  bottom: 440px;
-  width: 350px;
 
-  color: white;
- padding: 3px;
-/*  border-left: 1px solid dimgrey;
-  border-right:  1px solid dimgrey;*/
 
 }
 .lista1{
-  position: relative;
-  top:20px;
 
   list-style-type: square;
   list-style-position: inside;
 
 }
-.draganddrop{
-  position: relative;
-  bottom: 40px;
 
-}
-.form{
-  position:relative;bottom: 560px;
-  left:1010px;
-
-}
 .button{
  color:white;
  border-radius:3px;
@@ -427,32 +407,32 @@ padding: 5px;
  border-color:lime;
 }
 
-.formulari {
 
-width: 300px;
-
-
-
-}
 .aboutUs{
-/*  margin-top: 50px;*/
+
   color: dimgrey;
-  width: 300px;
-  padding: 35px;
-  border-radius: 100px;
+ border-radius: 5px;
   border: 1px groove dimgrey;
   overflow-x: hidden;
-position: relative;
-bottom: 50px;
-right: 50px;
+  padding: 25px;
+
 }
 .contactUs{
-position: relative;
-left: 999px;
-bottom: 580px;
+
   color: dimgrey;
-  width: 300px;
-  padding: 15px;
+ padding: 35px;
+}
+.footerindex{
+
+      float:left;
+        width:250px;
+        height: 250px;
+      padding: 0px;
+      overflow: hidden;
+  margin-right: 1%;
+      margin-left: 1%;
+
+
 }
 footer{
 
