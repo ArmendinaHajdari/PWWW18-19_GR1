@@ -1,3 +1,4 @@
+/*canvas text-in*/
 window.onload = function() {
 var canvas1 = document.getElementById("titull");
 var ctx1=canvas1.getContext("2d");
