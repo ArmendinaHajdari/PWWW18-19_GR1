@@ -276,6 +276,15 @@ i {
      float:left;
      width: 150px;
     margin-right: 17px; }
+    .kolonaform{
+      position:relative;
+      left:950px;
+      bottom: 90px;
+      width: 180px;
+
+       color:white;
+     margin-right: 17px;
+    }
     .fgaleri{
       float:left;
       width:300px;
@@ -369,9 +378,6 @@ padding: 5px;
   display:none;
 }
 
-  position: relative;left:1020px;
-  position: relative;bottom: 20px;
-}
 
 
 
