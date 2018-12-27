@@ -139,6 +139,7 @@ ol{
 }
 h1{padding-left: 5px;
 padding-top: 15px;}
+/*te vlersimi na duhet
 .formulari1{
 
   width:15%;
@@ -147,7 +148,7 @@ padding-top: 15px;}
   left: 60%;
    bottom: 25%;
    }
-/*background: rgba(200, 175, 80, 0.6);*/
+*/
 
 .kolona5{
     float:left;
@@ -286,14 +287,7 @@ i {
     left:75%;
     bottom:400px;
     }
-    .videot1{
-    position: relative;
-    width: 300px;
-    height: 250px;
-    left:75%;
-    bottom:350px;
-    }
-
+    
    nav ul li {color:red;}
 div p a{color:#228B22;}
 div  a{color:#228B22;}
