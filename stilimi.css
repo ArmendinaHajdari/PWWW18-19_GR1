@@ -8,7 +8,6 @@ html,body,footer,hgroup,nav,article,section,figure,figcaption,h1,h2,h3,ul,li,bod
 
 
   .mySlides {
-  /*  display: none; */
   position:relative;
   top:0px;
 
@@ -300,7 +299,7 @@ i {
     width: 250px;
     height: 250px;
   position: relative;
-  left:10%;
+ left:7%;
   }
 
 
