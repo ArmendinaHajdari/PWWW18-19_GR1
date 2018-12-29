@@ -10,6 +10,7 @@
     <script src=jquery-3.3.1.min.js>  </script>
   <script src=query.js>  </script>
   <script src=query2.js>  </script>
+
 <style type="text/css">
   a{color:lime;}
   td a{color:green;}
@@ -272,60 +273,7 @@ Arteve ka vendosur n&euml; mbylljen e “Onufrit” dhe rikonceptimin e programi
 
 </div>
 </body>
-<!--
-<footer >
-  <div class="draganddrop">
-  <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
-  <img id="drag1" src="images/logo1.jpg" draggable="true" ondragstart="drag(event)" width="60" height="60">
-  </div>
-  <br>
-  <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div><br></div>
-  <div class="aboutUs">
-<mark style="background-color:dimgrey;">RRETH NESH</mark><br>
-    Portali yn&euml; &euml;sht&euml; formuar n&euml; vitin 2018, nga <abbr title=zot&euml;ri>z.</abbr> A.A.
-  Ky portal ka p&euml;r q&euml;llim informimin e shpejt&euml; dhe t&euml; drejt&euml; t&euml; gjith&euml; ngjarjeve q&euml; ndodhin n&euml; vendin tone si dhe jasht&euml; tij.
-  Kjo webfaqe mir&euml;mbahet nga kompania "AAM".T&euml; drejtat e autorit k&euml;rkojm&euml; t&euml; respektohen!
-  P&euml;r krijimin e k&euml;saj webfaqe u  bazuam  edhe n&euml; tutorialin <a href="https://www.w3schools.com/" target="_blank">w3schools</a>
-</div>
 
-<div  class="linkBlock">
-<p>K&euml;to mund t&euml; t&euml; qaseni n&euml; webfaqet tona:</p>
-
-<ul class="lista1">
-  <li><a href="#home">KRYEFAQJA</a></li>
-<li><a href="art.html">ART</a></li>
-<li><a href="sport.html">SPORT </a></li>
-<li><a href="teknologji.html">TEKONOLOGJI </a></li>
-<li><a href="mode.html">MODE</a></li>
-</ul>
-</div>
-
-  <div class="contactUs">
-    <p><mark style="background-color:dimgrey;">KONTAKTI</mark></p>
-  <ul>
-    <li>  <a href="mailto:aam@gmail.com" style="color:white;">Email:  aam@gmail.com </a><br/> </li>
-    <li>Adresa:Prishtine,rruga B</li>
-    <li>Kontakti:+383 555-555</li>
-     <ul>
-      <li style="list-style:square;">Kontakti:+383 666-666</li>
-     </ul>
-  </ul>
-</div>
-
-<div class="form">
-<form class="formulari" method="get" action="#" >
-  <input name="name" type="text" placeholder="Name"  style="background-color:lightgrey; border-radius:3;width:230px; height:20px;"><br><br>
-  <input name="email" type="text" placeholder="Email" style="background-color:lightgrey; border-color:dimgrey; border-radius:3px;width:230px;height:20px;" ><br><br>
-  <button type="submit" class="button" >Submit</button>
-</form>
-</div>
-<p style="font-weight:bold; color:dimgrey; padding-bottom:15px; ">
-<br>
-
-T&euml; gjitha t&euml; drejtat jan&euml; t&euml; rezervuara &COPY; 2018 Portali AAM.</p>
-<hr>
-</footer>
--->
 <footer>
   <div class="footerindex">
   <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
@@ -333,6 +281,9 @@ T&euml; gjitha t&euml; drejtat jan&euml; t&euml; rezervuara &COPY; 2018 Portali 
   </div>
   <br>
   <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)" style="position:relative; left:95px;"></div><br>
+  <button onclick="getLocation()"style="background-color:dimgrey; border:none;">Vendndodhja</button>
+  <p id="demo"></p>
+  <script src="geolocation.js"></script>
 </div>
   <div class="footerindex aboutUs" style="padding:3px;">
 <mark style="background-color:dimgrey;">RRETH NESH</mark><br>
@@ -378,6 +329,7 @@ T&euml; gjitha t&euml; drejtat jan&euml; t&euml; rezervuara &COPY; 2018 Portali 
 <br>
 <p style="font-weight:bold; color:dimgrey; padding:15px; ">
 <br class="stopfloating">
+
 <br>
 T&euml; gjitha t&euml; drejtat jan&euml; t&euml; rezervuara &COPY; 2018 Portali AAM.</p>
 <hr>
