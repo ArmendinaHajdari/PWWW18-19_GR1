@@ -408,7 +408,7 @@ padding: 5px;
   -moz-column-rule: 1px solid lightblue;
   column-rule: 1px solid lightblue;
 }
-@@media handheld {
+@media handheld {
   .multicolumns {
     position: relative;
     bottom: 200px;
