@@ -275,6 +275,12 @@ i {
     float: left;
 
   }
+  .tabela_video1{
+    float: right;
+    position: relative;left:400px;
+    bottom: 300px;
+
+  }
 
    .kolona2{
      float:left;
@@ -433,15 +439,10 @@ padding: 5px;
 
 }
 
-.profili{
-float:left;
-position: relative;left:200px;
 
 
-  width: 100%;
 
 
-}
 
 .lista1{
 
