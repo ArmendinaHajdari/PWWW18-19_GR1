@@ -17,4 +17,15 @@ $(function(){
                                     $(".tdata4").click(function(){
                                        $(".tpaneli4").slideToggle("slow")
                                     });
-                                });
+                                     });
+
+                                    $(function(){
+                                                $(".tdata5").click(function(){
+                                                   $(".tpaneli5").slideToggle("slow")
+                                                });
+                                                 });
+                                                $(function(){
+                                                            $(".tdata6").click(function(){
+                                                               $(".tpaneli6").slideToggle("slow")
+                                                            });
+                                                         });

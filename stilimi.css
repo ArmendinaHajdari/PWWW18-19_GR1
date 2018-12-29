@@ -275,12 +275,7 @@ i {
     float: left;
 
   }
-  .tabela_video1{
-    float: right;
-    position: relative;left:400px;
-    bottom: 300px;
 
-  }
 
    .kolona2{
      float:left;
@@ -388,9 +383,30 @@ vertical-align: top;
 padding: 5px;
   display:none;
 }
+.tdata5{
+  width:250px;
+height:100px;
+padding: 5px;
+vertical-align: top;}
 
+.tpaneli5{
+  width:250px;
+vertical-align: top;
+padding: 5px;
+  display:none;}
 
+  .tdata6{
+    width:250px;
+  height:100px;
+  padding: 5px;
+  vertical-align: top;}
 
+  .tpaneli6{
+    width:250px;
+  vertical-align: top;
+  padding: 5px;
+  position: relative;
+    display:none;}
 
 .photos{
 -webkit-transition: -webkit-transform: 3s;
