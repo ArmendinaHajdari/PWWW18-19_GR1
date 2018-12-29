@@ -284,6 +284,7 @@ i {
 
        color:white;
      margin-right: 17px;
+       background:#101010;
     }
     .fgaleri{
       float:left;
@@ -295,8 +296,8 @@ i {
     height: 250px;
     left:75%;
     bottom:400px;
+  }
 
-    }
 
    nav ul li {color:red;}
 div p a{color:#228B22;}
