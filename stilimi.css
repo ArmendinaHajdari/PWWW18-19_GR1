@@ -426,7 +426,15 @@ padding: 5px;
 
 }
 
+.profili{
+float:left;
+position: relative;left:200px;
 
+
+  width: 100%;
+
+
+}
 
 .lista1{
 
@@ -471,6 +479,7 @@ padding: 5px;
 
 
 }
+
 footer{
 
   background-color: black;
