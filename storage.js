@@ -6,7 +6,7 @@ function clickCounter() {
       localStorage.clickcount = 1;
     }
     document.getElementById("result").innerHTML = "Submit është bërë " + localStorage.clickcount + " herë";
-    writeln("result");
+    
   } else {
     document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
   }

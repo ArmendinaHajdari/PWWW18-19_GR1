@@ -11,6 +11,7 @@
 <script src="javascript.js" ></script>
 <script src=query.js>  </script>
 <script src=query2.js>  </script>
+<script  src=storage.js></script>
 <style type="text/css">
 
   body{background-color: #FFE4B5;}
@@ -306,11 +307,12 @@ të mos mendojmë edhe për tualetin që na është i nevojshëm për natën më
 <br class="stopfloating">
   <div class="kolonaform" >
     <p>Vler&euml;so:</p>
-  <form  method="get" action="http://www.randyconnolly.com/tests/process.php"" >
+  <form  method="get" action="http://www.randyconnolly.com/tests/process.php" >
     <input name="value" type="checkbox">M&euml; p&euml;lqeu kjo webfaqe!<br>
     <input name="gjinia" type="radio"> Mashkull<br>
     <input name="gjinia" type="radio"> Fem&euml;r<br>
-  <button type="submit" class="button" >Submit</button>
+    <button type="submit"onclick="clickCounter()" class="button"  >Submit</button>
+  <p id="result" style="color:white;float:right;"></p>
   </form>
   </div>
 
