@@ -4,178 +4,375 @@
 
 <head lang="en">
   <meta charset="utf-8">
-<title>AAM</title>
+<title >AAM</title>
 <link rel="stylesheet" href="stilimi.css"/>
+<script src="javascript.js" ></script>
+    <script src=jquery-3.3.1.min.js>  </script>
+  <script src=query.js>  </script>
+  <script src=query2.js>  </script>
+<script src=welcome.js></script>
+
+<script  src=storage.js></script>
 
 
+<style type="text/css">
+  a{color:lime;}
+  td a{color:green;}
+ .day{background-color: #F5F5F5;}
+ .night{background-color:#f2f2f2 ;}
+  #div1, #div2 {width:60px;height:60px;padding:10px;border:1px dotted #F5F5F5;}
+</style>
+
+<script>
+function allowDrop(ev)
+{
+ev.preventDefault();
+}
+
+function drag(ev)
+{
+ev.dataTransfer.setData("Text",ev.target.id);
+}
+
+function drop(ev)
+{
+ev.preventDefault();
+var data=ev.dataTransfer.getData("Text");
+ev.target.appendChild(document.getElementById(data));
+
+}
+</script>
+<style type="text/css">
+table{
+  background-color:#F5F5F5;
+  border-style: hidden;
+  border-color: dimgrey;
+}
+</style>
 </head>
 <body>
-
+<script src=backgroungchange.js></script>
   <header>
-      <h1 class="titulli">AAM</h1>
+      <h1  class="titulli">AAM</h1>
+
   <nav >
   <ul >
-  <li><a href="index.html"> Kryefaqja</a></li>
-  <li><a href ="#">Mod&euml;</a></li>
-  <li><a href ="art.html">Art </a></li>
-  <li><a href ="sport.html">Sport </a></li>
-  <li><a href ="teknologji.html">Teknologji </a></li>
+
+  <li><a id="home" href="index.html"> <abbr title=KRYEFAQJA style="text-decoration:none;">KRYEFAQJA</abbr> </a></li>
+  <li ><a  href ="mode.html"><abbr title=MOD&Euml; style="text-decoration:none;">MOD&Euml;</abbr> </a></li>
+  <li><a href ="sport.html"><abbr title=SPORT style="text-decoration:none;">SPORT</abbr> </a></li>
+  <li><a href ="art.html"><abbr title=ART style="text-decoration:none;">ART</abbr></a></li>
+  <li><a id="w" href ="teknologji.html"><abbr title=TEKNOLOGJI style="text-decoration:none;">TEKNOLOGJI</abbr> </a></li>
+
   </ul>
   </nav>
 </header>
-  <figure>
-  <img src="PWWW18-19_Gr1/Foto.jpg">
-</figure>
+<hr class="stopfloating2" ></hr>
 
+<div>
+  <div class="mySlides fade">
+      <img src="images/indexsport.jpg" style="width:100%; height:225px" >
+      <div class="content">
+    <p class="description">Mir&euml;serdh&euml;t <br> n&euml; faqen ton&euml; AAM.</p><p class="description" style="color:lightgreen;">K&euml;tu mund t&euml; gjeni sport</p>
+  </div>
+  <div class="content1">
+  <p class="description1">Sport</p>
 
+  </div>
+    </div>
 
+    <div class="mySlides fade" id="foto1">
+    <img src="images/indexmode.jpg" style="width:100%; height:225px; " >
+    <div class="content">
+  <p class="description" style="color:orange;">Mund t&euml; <br>gjeni <br>Mod&euml;</p>
 
-  <br>
-  <br>
+</div>
+<div class="content1">
+<p class="description1">Mode</p>
+</div>
+</div>
 
-<br>
+    <div class="mySlides fade" id="foto2">
+    <img src="images/indextech.jpg" style="width:100%; height:225px">
+    <div class="content">
+  <p class="description" style="color:blue;">Mund t&euml;  <br> gjeni <br>teknologji</p>
+</div>
+
+<div class="content1">
+<p class="description1">Tech</p>
+</div>
+
+</div>
+
+<div class="mySlides fade" id="foto3">
+<img src="images/indexart.jpg" style="width:1350px; height:225px">
+<div class="content">
+<p class="description">Poashtu <br> n&euml; faqen ton&euml; <br>mund t&euml; gjeni edhe <br>art</p>
+</div>
+<div class="content1">
+<p class="description1">Art</p>
+</div>
+</div>
+
+</div>
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
 <br>
 <p class="kryetitulli">
 "Gjej lajmet dhe informacionet  m&euml; t&euml; reja rreth sportit ,artit,teknologjis&euml; dhe mod&euml;s  n&euml; koh&euml; reale."
 
-</p><br><br><br>
+</p><br>
+<hr class="stopfloating" ></hr>
+
+<article style="width:100%">
+
+
+  <div class="kolona6">
+    <p>
+  <img src="images/rome.png" alt="Fotografi nga koncerti" width=260px  height=140px><br>
+  <a href="art.html">Dua Lipa, Ram&euml; Lahaj, Inva Mula, Elhaida Dani e Ermal Meta k&euml;nduan s&euml; bashku “Lulebor&euml;”</a><br>
+  T&euml; h&euml;n&euml;n &euml;sht&euml; mbajtur nj&euml; koncert i madh recital n&euml; Teatrin “Argentina” t&euml; Rom&euml;s.<br> <a class="shigjeta" style="color:green;">Më shumë</a><i class="arrow right" ></i><i class="arrow right"></i>
+  </p>
+  <p class="panel6">Z&euml;rat m&euml; t&euml; mir&euml; shqiptar&euml; kan&euml; k&euml;nduar n&euml; nderim t&euml; figur&euml;s s&euml; madhe heorike shqiptare, Gjergj Kastrioti – Sk&euml;nderbeu.
+  Me rastin e 550 vjetorit t&euml; vdekjes s&euml; Sk&euml;nderbeut – Dua Lipa, Ram&euml; Lahaj, Inva Mula, Ermal Meta, Elhaida Dani, Genc Tuki&ccedil;i, Erza Mu&ccedil;olli e shum&euml; t&euml; tjer&euml; k&euml;nduan k&euml;ng&euml; t&euml; njohura para publikut.
+  E entuziazmuar q&euml; k&euml;ndon shqip shihet Dua Lipa, k&euml;ng&euml;tarja shqiptare me fam&euml; bot&euml;rore, e cila ka arritur majat n&euml; tregun nd&euml;rkomb&euml;tar t&euml; muzik&euml;.
+  N&euml; fund t&euml; koncertit, ata jan&euml; mbledhur t&euml; gjith&euml; s&euml; bashku, dhe kan&euml; k&euml;nduar para publikut k&euml;ng&euml;n e famshme “Lulebor&euml;”.
+  “Do e mbaj mend diten e djeshme si nje dite plot emocione. Ishte nje nder te isha e ftuar ne kete event dhe te ndaja skenen me ju! Faleminderit Ambasades Shqiptare ne Vatikan,
+  per ftesen dhe organizimin e ketij eventi ne kuader te vitit te Skenderbeut”, ka shkruar Elhaida Dani n&euml; mbishkrimin e videos.
+  </p>
+  </div>
 
 
 
-  <div>
-    <p class="majtas kolona">
-<img src="images/Capture1.png" width=335 px height=140 px><br>
-<a href="#">E arta e sjellur nga Majlinda</a><br>
-Edhe nje medalje e arte ne Kosove nga xhudistet tona,te cilat perfaqsojne shtetin tone ne menyren me te denje.
-</p>
-<p class="majtas kolona">
-<img src="images/teknologjia.jpg" width=335 px height=140 px><br>
+<div class="kolona3">
+  <p>
+<img src="images/teknologjia.jpg" width=260px; height=140px;><br>
 <a href="#">Aplikacioni Your Phone n&euml; Microsoft</a><br>
-Aplikacioni Your Phone është momentalisht aplikacioni më i shkarkuar në Play Store.
+Aplikacioni Your Phone &euml;sht&euml; momentalisht aplikacioni m&euml; i shkarkuar n&euml; Play Store.
+Pasi ka braktisur sistemin operativ Windows 10 p&euml;r telefona.<br> <a class="shigjeta" style="color:green;">Më shumë</a><i class="arrow right" ></i><i class="arrow right"></i>
 </p>
-<p class="majtas kolona">
-<img src="images/skenderbeu.png" width=335 px height=140 px><br>
-<a href="#">Sk&euml;nderbeu p&euml;rmes 54 piktor&euml;ve</a><br>
-“Kruja dhe Sk&euml;nderbeu” quhet ekspozita e hapur n&euml; ambientet e  Muzeut Historik Komb&euml;tar.
+<p class="panel3"> Microsoft po p&euml;rqafon gjithnj&euml; e m&euml; shum&euml; Android dhe iOS dhe po p&euml;rmir&euml;son nd&euml;rveprimin me Windows p&euml;r PC. Nj&euml; shembull i koh&euml;ve t&euml; fundit p&euml;r k&euml;t&euml; &euml;sht&euml; aplikacioni
+  i Your Phone i kompanis&euml;, q&euml; b&euml;n t&euml; mundur d&euml;rgimin e teksteve nga kompjuteri juaj dhe qasjen e leht&euml; n&euml; fotot e ruajtura n&euml; telefonin tuaj Android.</p>
+</div>
+
+<div class="kolona5">
+<p  >
+<img src="images/skenderbeu.png" alt="Fotografi nga ekspozita 'Kruja dhe k&euml;nderbeu '" width=260px  height=140px><br>
+<a href="art.html" >Sk&euml;nderbeu p&euml;rmes 54 piktor&euml;ve</a><br>
+“Kruja dhe Sk&euml;nderbeu” quhet ekspozita e hapur n&euml; ambientet e Muzeut Historik Komb&euml;tar.
+K&euml;to piktura jan&euml; t&euml; vendosura n&euml; ekspozit&euml; p&euml;r publikun.<br> <a class="shigjeta" style="color:green;">Më shumë</a><i class="arrow right" ></i><i class="arrow right"></i>
 </p>
-<p class="majtas kolona">
-<img src="images/moda.jpg" width=335 px height=140 px><br>
-<a href="#">Ngjyrat 2019</a><br>
-Veshjet e dimrit 2019 do t&euml; jen&euml; t&euml; gjitha neon dhe ngjyra q&euml; do t&euml; ndezin pamjen.
+<p class="panel5">N&euml; k&euml;t&euml; ekspozit&euml; marrin pjes&euml; 54 piktor&euml; nga Shqip&euml;ria, Maqedonia dhe Kosova, t&euml; cil&euml;t kan&euml; hedhur n&euml; telajo impresionet e tyre p&euml;r Heroin Komb&euml;tar t&euml; Shqiptar&euml;ve, Gjergj Kastriotin Sk&euml;nderbeun.
+  “P&euml;rvjetori i sivjetsh&euml;m i 550-vjetorit t&euml; vdekjes s&euml; Sk&euml;nderbeut na risjell s&euml;rish n&euml; v&euml;mendje figur&euml;n e tij poliedrike, si strateg dhe udh&euml;heq&euml;s i shquar, sepse figura e tij nuk mbeti vet&euml;m si nj&euml; imazh, por &euml;sht&euml; futur thell&euml; n&euml; vet&euml;dijen dhe nd&euml;rgjegjen e popullit shqiptar.
+  Kjo krenari e trash&euml;guar nga mesjeta u rishfaq duksh&euml;m n&euml; Vitin Mbar&euml;komb&euml;tar t&euml; Gjergj Kastriotit Sk&euml;nderbeut dhe ka sh&euml;rbyer p&euml;r forcimin e identitetit komb&euml;tar t&euml; shqiptar&euml;ve. Angazhimeve t&euml; marra nga qeveria shqiptare p&euml;r t&euml; kremtuar vitin 2018 si vitin e Sk&euml;nderbeut, i jan&euml; bashkuar edhe 54 piktor&euml;t m&euml; t&euml; mir&euml; nga trevat mbar&euml;shqiptare, t&euml; cil&euml;t kan&euml; sjell&euml; punimet e tyre n&euml; ekspozit&euml;n ‘Kruja dhe Sk&euml;nderbeu’, q&euml; p&euml;rurojm&euml; sot. Ky vit pati prurje t&euml; m&euml;dha p&euml;rsa i p&euml;rket vler&euml;simit t&euml; figur&euml;s s&euml; Gjergj Kastriotit Sk&euml;nderbeut”, tha drejtori i Muzeut Historik Komb&euml;tar Dorian Ko&ccedil;i.
 </p>
 </div>
 
+<div class="kolona4">
+  <p>
+<img src="images/dimer.png" width=260px height=140px><br>
+<a href="#">Top-ngjyra dim&euml;rore: P&euml;r tu dukur si ikon&euml; mode!</a><br>
+Disa ngjyra kurr&euml; nuk do t&euml; dalin nga moda.
+Sezoni i dimrit ,palet&euml; interesante t&euml; ngjyrave, p&euml;r dit&euml;t e zymta dhe pa rreze dielli.<br> <a class="shigjeta" style="color:green;">Më shumë</a><i class="arrow right" ></i><i class="arrow right"></i>
+</p>
+<p class="panel4">Pos nuanc&euml;s trendi i cili ndryshon nga viti n&euml; vit, ngjyrat e caktuara gjithmon&euml; jan&euml; t&euml; k&euml;rkuara.
+Fjala &euml;sht&euml; p&euml;r nuancat klasike siç jan&euml; kamel dhe ngjyra e ver&euml;s s&euml; kuqe, t&euml; cilat jan&euml; zgjedhje ideale p&euml;r damat e sofistikuara, por edhe t&euml; buta t&euml; nuancave t&euml; tr&euml;ndafilta.
+Sivjet u jan&euml; bashkuar edhe t&euml; gjitha nuancat e çokollat&euml;s dhe t&euml; karameles, mir&euml;po sa m&euml; shum&euml; q&euml; afrohen festat, po ashtu gjithnj&euml; e m&euml; shum&euml; jan&euml; n&euml; fokus versionet e err&euml;ta t&euml; ngjyr&euml;s s&euml; kuqe.
+D&euml;shir&euml;n e v&euml;rtet&euml; p&euml;r k&euml;t&euml; nuanc&euml; para disa jav&euml;sh e ka nxitur dukesha, Meghan Markle, e cila &euml;sht&euml; shpallur influencuesja e tret&euml; m&euml; e fuqishme k&euml;t&euml; vit, duke u shfaqur e veshur me fustan dhe pallto ngjyr&euml; t&euml; ver&euml;s s&euml; kuqe,
+andaj nuk &euml;sht&euml; p&euml;r t’u habitur q&euml; dyqanet shum&euml; shpejt i mbush&euml;n raftet me rroba pik&euml;risht t&euml; k&euml;saj ngjyre.
+Ngjyra e njohur “burgundi” &euml;sht&euml; shtes&euml; luksoze e gard&euml;rob&euml;s dim&euml;rore, mir&euml;po do t&euml; duket shk&euml;lqyesh&euml;m n&euml; kombinim me ngjyr&euml;n e sapop&euml;rmendur kamel, si edhe me t&euml; kaltr&euml;n pud&euml;r, edhe nj&euml; hit nuance i sezonit t&euml; ftoht&euml;.
+
+</p>
+</div>
+
+</article>
+
+<hr class="stopfloating" style="position:relative;top:40px;"></hr>
+<!--<hr class="stopfloating" style="position:relative; top:40px"></hr>-->
+
+<section>
+
+<p style="font-family:arial; font-weight:700;margin-left:10px; position:relative;top:30px"> Shiko gjithashtu lajmet me te fundit...</p></div>
+<hr class="stopfloating"></hr>
 
 
-<hr class="stopfloating">
-<p style="font-family:arial; font-weight:700;" > Shiko gjithashtu lajmet me te fundit...</p><br>
 
-
-
-<table  style="margin-left: 7px;" width="570"px>
+<table class="tabela_video" style="margin-left: 7px; position: relative;bottom: 40px;">
 <tr>
-<td style="padding-bottom:130px">
-
-
-
-<!-- <p class ="kolona2">-->
-    <img src="images/samsung.jpg" width=70 px height=70 px  >
-
-
-</td>
-<td style="width:250px; height:100px; padding-bottom:25px" >
-<a href="#">Galaxy Flod telefoni i palosshëm nga Samsung</a>
-    A do të quhet "telefoni i palosshëm"i shumë pritur nga Samsung,Galaxy Flod?Kjo është ajo që sugjeron
-    një regjistrim i ri i markës tregtare.Samsung ka thënë se
-    do ta lanesoj vitin e ardhëshëm,por nuk zbuloi se si do të quhet.
+<td style="vertical-align:top;">
+<img class="photos" src="images/samsung.jpg" width=70 px height=70 px  >
 </td>
 
-    <td style="padding-bottom: 130px ">
-
-<img src="images/moda_e_vjeshtes.jpg" width=70 px height=70 px style="imgage left;">
-
+<td class="tdata1">
+<a href="#">Galaxy Flod telefoni i palossh&euml;m nga Samsung</a><br>
+    A do t&euml; quhet "telefoni i palossh&euml;m"i shum&euml; pritur nga Samsung,Galaxy Flod?Kjo &euml;sht&euml; ajo q&euml; sugjeron
+    nj&euml; regjistrim i ri i mark&euml;s tregtare.Samsung ka th&euml;n&euml; se
+    do ta lanesoj vitin e ardh&euml;sh&euml;m,por nuk zbuloi se si do t&euml; quhet.
+    <br><strong class="dots" style="color:green;">...</strong>
+    <i class="arrow right1" ></i>
+    <i class="arrow right1"></i>
+    <p class="tpaneli1">Megjithat&euml;, Galaxy Fold &euml;sht&euml; nj&euml; em&euml;r m&euml; i p&euml;rshtatsh&euml;m p&euml;r nj&euml; pajisje q&euml; paloset m&euml; shum&euml; se sa q&euml; p&euml;rkulet.
+Regjistrimi &euml;sht&euml; paraqitur vet&euml;m disa dit&euml; m&euml; par&euml;. Kompania po k&euml;rkon t&euml; mbroj&euml; titullin Galaxy Fold. P&euml;rshkrimi p&euml;rmend se mund t&euml; p&euml;rdoret
+p&euml;r nj&euml; shum&euml;llojshm&euml;ri produktesh, duke p&euml;rfshir&euml; telefonat.
+Megjithat&euml;, nuk &euml;sht&euml; konfirmuar se kjo &euml;sht&euml; ajo q&euml; do t&euml; quhet telefoni i palossh&euml;m i Samsung.</p>
 </td>
-<td style="width:250px; height:100px; padding-bottom:25px" >
 
-<a href="#">E gjelbra e mbyllët, ideale për stinën e vjeshtës</a>
-Për këtë sezonë ngjyra që ka pikasur më shuti është e gjelbërta e mbyllët.Por këtë veshje e bën të përkryer kombinimi adekuat.
-Në rast se vishni gjelbër mbyllët në punë, atëherë kujdesni që veshjen tjetër ta keni të bardhë.
+<td style="vertical-align:top;">
+<img class="photos" src="images/moda_e_vjeshtes.jpg" width=70 px height=70 px style="imgage left;">
+</td>
 
+<td class="tdata2">
+<a href="#">E gjelbra e mbyll&euml;t, ideale p&euml;r stin&euml;n e vjesht&euml;s</a><br>
+P&euml;r k&euml;t&euml; sezon&euml; ngjyra q&euml; ka pikasur m&euml; shumti &euml;sht&euml; e gjelb&euml;rta e mbyll&euml;t.Por k&euml;t&euml; veshje e b&euml;n t&euml; p&euml;rkryer kombinimi adekuat.
+N&euml; rast se vishni gjelb&euml;r mbyll&euml;t n&euml; pun&euml;, at&euml;her&euml; kujdesni q&euml; veshjen tjet&euml;r ta keni t&euml; bardh&euml;.
+<br><strong class="dots" style="color:green;">...</strong>
+<i class="arrow right1" ></i>
+<i class="arrow right1"></i>
+<p class="tpaneli2"><img src="images/stilivjeshtes.jpg" width = 250 px height=200 px alt="Foto q&euml; paraqet stilin e vjeshtes">K&euml;shtu dukeni elegante dhe me stil, pa b&euml;r&euml; p&euml;rpjekje t&euml; m&euml;dha.
+N&euml;se doni t&euml; visheni p&euml;r mbr&euml;mje, kujdesuni q&euml; e gjelbra t&euml; jet&euml; sa m&euml; mbyll&euml;t, apo ngjyr&euml; ulliri.</p>
 </td>
 </tr>
 <tr>
-<td style="padding-bottom:130px">
-<img src="images/arsenali_sport.jpg" width=70 px height=70 px>
-
-</td>
-<td style="width:250px; height:100px; padding-bottom:40px">
-
-<a href="#">Mesut Ozil i ka ditët e numruara tek skuadra e tij aktuale Arsenal</a>
-Mesfushori gjerman nuk është në planet e klubit për të ardhmen dhe pritet të largohet.
-30-vjeqari po shqyrton ofertat që kanë ardhur në drejtim të tij,pasi që te ekipi i Arsenalit nuk po e sheh të ardhmen e tij.
-
-
+<td style="vertical-align:top;">
+<img class="photos" src="images/arsenali_sport.jpg" width=70 px height=70 px>
 </td>
 
-
-<!--<p class="kolona2">-->
-
-
-<td style="padding-bottom:130px">
-
-<img src="images/skenderbeu.png" width=70 px height=70 px >
-
+<td class="tdata3">
+<a href="#">Mesut Ozil i ka dit&euml;t e numruara tek skuadra e tij aktuale Arsenal</a><br>
+Mesfushori gjerman nuk &euml;sht&euml; n&euml; planet e klubit p&euml;r t&euml; ardhmen dhe pritet t&euml; largohet.
+30-vjeqari po shqyrton ofertat q&euml; kan&euml; ardhur n&euml; drejtim t&euml; tij,pasi q&euml; te ekipi i Arsenalit nuk po e sheh t&euml; ardhmen e tij.
+<br><strong class="dots" style="color:green;">...</strong>
+<i class="arrow right1" ></i>
+<i class="arrow right1"></i>
+<p class="tpaneli3">Manchester United duket favorit p&euml;r t&euml; n&euml;nshkruar me gjermanin, pasi Jose Mourinho &euml;sht&euml; nj&euml; adhurues i madh i loj&euml;s s&euml; tij.
+Por Ozil karrier&euml;n mund ta vazhdoj edhe n&euml; kampionatin italian Serie A.
+Tri skuadrat italiane, Roma, Juventus dhe Inter kan&euml; shprehur interesim p&euml;r ta pasur n&euml; radh&euml;t e veta gjermanin.</p>
 </td>
-<td style="width:250px; height:100px; padding-bottom:40px">
 
-<a href="#">Sk&euml;nderbeu p&euml;rmes 54 piktor&euml;ve</a>
-“Kruja dhe Sk&euml;nderbeu” quhet ekspozita e hapur n&euml; ambientet e Muzeut Historik Komb&euml;tar.
-Kjo ekspozit pritet të vizitohet nga shumë vizitorë si nga trojet shqiptare ashtu edhe nga jashtë.
+<td style="vertical-align:top;">
+<img class="photos" src="images/lajmeart.jpg" width=70 px height=70 px >
+</td>
 
+<td class="tdata4">
+<a href="#">Mbyllet pas 18 vitesh konkursi nd&euml;rkomb&euml;tar i artit </a><br>
+Konkursi nd&euml;rkomb&euml;tar i arteve pamore Onufri, nuk do t&euml; jet&euml; m&euml;. Galeria Komb&euml;tare ka vendosur ta mbyll&euml; n&euml; kuad&euml;r t&euml; rikonceptimit t&euml; rolit t&euml; galeris&euml;.
+“N&euml; kuad&euml;r t&euml; dinamikave n&euml; t&euml; cilat zhvillohen shk&euml;mbimet artistiko-kulturore nd&euml;rkomb&euml;tare sot.
+<br><strong class="dots" style="color:green;">...</strong>
+<i class="arrow right1" ></i>
+<i class="arrow right1"></i>
+<p class="tpaneli4">Si pasoj&euml; e problematikave q&euml; jan&euml; shfaqur nd&euml;r vite me Ekspozit&euml;n Nd&euml;rkomb&euml;tare t&euml; Arteve Pamore “Onufri”, aktivitet ky q&euml; ka patur mision primar realizimin e k&euml;tij shk&euml;mbimi n&euml; Shqip&euml;ri, Galeria Komb&euml;tare e
+Arteve ka vendosur n&euml; mbylljen e “Onufrit” dhe rikonceptimin e programit t&euml; saj t&euml; p&euml;rgjithsh&euml;m artistik”, thuhet n&euml; deklarat&euml;n p&euml;r shtyp t&euml; Galeris&euml;.</p>
 </td>
 </tr>
 </table>
-<!--</p>-->
 
-<div>
-<figure class="kolona2">
-<img src="images/profil.png" width=150px height=150px>
-</figure>
+</section>
 
- <figure class="kolona2">
-<img src="images/profil.png" width=150px height=150px>
-</figure>
+
+<table class="videot tabela_video" >
+<tr>
+<td class="tdata5">
+<img src="images/majlindafoto.jpg" width=200px height=300px>
+<a href="#"> Majlinda Kelmendi </a>
+<br><strong class="dots" style="color:green;">...</strong>
+<i class="arrow right1" ></i>
+<p class="tpaneli5">Majlinda Kelmendi (lindur më 9 maj 1991 ), është xhudiste
+  shqiptare nga Peja. Në vitin 2013, Majlinda qëndronte në vendin e parë në renditjen ndërkombëtare nga Federata Ndërkombëtare e Xhudos për kategorinë −52 kg.
+  Në vitin 2014, Majlinda u shpall xhudistja më e mirë në botë në të gjitha kategoritë nga presidenti i FNXH, Marius Vizer. Më 24 dhjetor 2014, ajo u dekorua nga
+  Presidentja e Kosovës, Atifete Jahjaga me titullin “Medalja Presidenciale e Meritave”.
+
+
+</p>
+</td>
+
+<td class="tdata6">
+<img src="images/kyliejenner.jpg" width=200px height=300px>
+<a href="#">Kylie Jenner.</a>
+<br><strong class="dots" style="color:green;">...</strong>
+<i class="arrow right1" ></i>
+<p class="tpaneli6">Kylie Jenner(lindur më 10 gusht 1997), është një personalitet shumë i njohur dhe i dashur pothuajse për të gjithë.Ajo është një modele dhe mbi të gjitha një sipërmarrëse
+  shumë e suksesshme.Ajo është themeluese dhe pronare e kompanisë kozmetike Kylie Jenner e cila posedon 100% të aksioneve.
+
+</p>
+</td>
+</tr>
+</table>
+
+
+
 <br class="stopfloating">
 
-</div>
 
 </body>
+
 <footer>
-  <div >
+  <div class="footerindex">
+  <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img id="drag1" src="images/logo1.jpg" draggable="true" ondragstart="drag(event)" width="60" height="60">
+  </div>
+  <br>
+  <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)" style="position:relative; left:95px;"></div><br>
+  <button onclick="getLocation()"style="background-color:dimgrey; border:none;">Vendndodhja</button>
+  <p id="demo"></p>
+  <script src="geolocation.js"></script>
+</div>
+  <div class="footerindex aboutUs" style="padding:3px;">
+<mark style="background-color:dimgrey;">RRETH NESH</mark><br>
+    Portali yn&euml; &euml;sht&euml; formuar n&euml; vitin 2018, nga <abbr title=zot&euml;ri>z.</abbr> A.A.
+  Ky portal ka p&euml;r q&euml;llim informimin e shpejt&euml; dhe t&euml; drejt&euml; t&euml; gjith&euml; ngjarjeve q&euml; ndodhin n&euml; vendin tone si dhe jasht&euml; tij.
+  Kjo webfaqe mir&euml;mbahet nga kompania "AAM".T&euml; drejtat e autorit k&euml;rkojm&euml; t&euml; respektohen!
+  P&euml;r krijimin e k&euml;saj webfaqe u  bazuam  edhe n&euml; tutorialin <a href="https://www.w3schools.com/" target="_blank">w3schools</a>
+</div>
+
+<div class="footerindex" style="padding:20px;">
+<p>K&euml;to mund t&euml; qaseni n&euml; webfaqet tona:</p>
+
+<ul class="lista1">
+  <li><a href="#home">KRYEFAQJA</a></li>
+<li><a href="art.html">ART</a></li>
+<li><a href="sport.html">SPORT </a></li>
+<li><a href="teknologji.html">TEKONOLOGJI </a></li>
+<li><a href="mode.html">MODE</a></li>
+</ul>
+</div>
+
+  <div class="footerindex contacUs" style="padding:20px;">
+    <p><mark style="background-color:dimgrey;">KONTAKTI</mark></p>
   <ul>
-    <li>Email:aam@gmail.com</li>
+    <li>  <a href="mailto:aam@gmail.com" style="color:white;">Email:  aam@gmail.com </a><br/> </li>
     <li>Adresa:Prishtine,rruga B</li>
-    <li>Kontakti:+383------</li>
+    <li>Kontakti:+383 555-555</li>
      <ul>
-      <li style="list-style:square;">Kontakti:+383------</li>
+      <li style="list-style:square;">Kontakti:+383 666-666</li>
      </ul>
-
   </ul>
+<br>
 
-<p>LINK BLOCK</p>
-  <ul>
-  <li><a href="#">Emri i linkut </a></li>
-<li><a href="#">Emri i linkut </a></li>
-<li><a href="#">Emri i linkut </a></li>
 
-  </ul>
-  <div >
-<form class="formulari"  method="post">
-  <input name="firstname" type="text" placeholder="Name" ><br><br>
-  <input name="email" type="text" placeholder="Email"><br><br>
-  <input type="submit" value="Submit">
-</div>
+<form  method="get" action="http://www.randyconnolly.com/tests/process.php" >
+ <input name="name" type="text" placeholder="Name" id="name" style="background-color:lightgrey; border-radius:3;width:230px; height:20px;"><br><br>
+ <input name="email" type="email" placeholder="Email" id="email"  style="background-color:lightgrey; border-color:dimgrey; border-radius:3px;width:230px;height:20px;" ><br><br>
+<input name="pass" type="password" placeholder="Password" id="pass" style="background-color:lightgrey; border-color:dimgrey; border-radius:3px;width:230px;height:20px;" ><br><br>
+
+  <button type="submit"onclick="clickCounter()" class="button"  >Submit</button>
+-webkit-<p id="result" style="color:white;float:right;"></p>
+<br>
 </form>
+
+
+
 </div>
+
+
+<br>
+
+<p style="font-weight:bold; color:dimgrey; padding:15px; ">
+<br class="stopfloating">
+
+<br>
+T&euml; gjitha t&euml; drejtat jan&euml; t&euml; rezervuara &COPY; 2018 Portali AAM.</p>
+<hr>
+
 </footer>
 </html>

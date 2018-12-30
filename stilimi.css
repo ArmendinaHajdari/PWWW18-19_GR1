@@ -6,13 +6,122 @@ html,body,footer,hgroup,nav,article,section,figure,figcaption,h1,h2,h3,ul,li,bod
   vertical-align:baseline;
   border:0;}
 
-.kryetitulli{font-size: 24px;
+
+  .mySlides {
+  position:relative;
+  top:0px;
+
+
+
+  }
+#foto1, #foto2,#foto3{
+    display: none;
+  }
+
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+
+  }
+
+
+  .prev {
+    cursor: pointer;
+    padding: 16px;
+    position:relative;bottom:130px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select:none;
+  }
+  .next {
+    cursor: pointer;
+    padding: 16px;
+    position: relative;bottom:130px;
+    position: relative;left:1250px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  .text {
+    color: black;
+    font-size: 25px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 370px;
+    width: 100%;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+  .mySlides .content {
+    position: absolute; /* Position the background text */
+    bottom: 5px;
+    top:0px        ;
+    /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.40); /* Black background with 0.5 opacity */
+    color: white; /* Grey text */
+    width: 460px; /* Full width */
+    padding: 20px; /* Some padding */
+    margin-left: 850px;
+
+  }
+  .description{
+color:white;
+font-family:Cursive;
+font-size: 35px;
+text-align: center;
+position: relative;left: 20px;
+}
+.mySlides .content1 {
+  position:absolute; /* Position the background text */
+  bottom: 5px;
+  top:150px        ;
+  /* At the bottom. Use top:0 to append it to the top */
+  background:rgb(250, 250, 250); /* Fallback color */
+  background:rgba(250, 250, 250, 0.6);
+
+  width:300px;
+  height:25px;/* Full width */
+  padding:20px; /* Some padding */
+  margin-left:25px;
+
+}
+.description1{
+color:black;
+font-family:fantasy;
+font-size: 40px;
+text-align:left;
+position: relative;bottom: 20px;
+}
+
+
+
+
+
+
+.kryetitulli{font-size: 34px;
              font-style: italic;
-           font-weight: bold;
+             font-family: fantasy;
          text-align: center;
+         color:black;
        }
        .titulli{ font-size: 24px;
                     font-style: italic;
+
                   font-weight: bold;
                 text-align: left;
                 color: white;
@@ -22,73 +131,401 @@ html,body,footer,hgroup,nav,article,section,figure,figcaption,h1,h2,h3,ul,li,bod
   h1,h3{color: #228B22;
   margin-left: 10px;
 }
+ol{
+  font-style: italic;
+  color:white;
+  list-style-type:upper-roman;
+}
 h1{padding-left: 5px;
 padding-top: 15px;}
-  .kolona{
+/*te vlersimi na duhet
+.formulari1{
+
+  width:15%;
+  height: 10%;
+  position: relative;
+  left: 60%;
+   bottom: 25%;
+   }
+*/
+
+.kolona5{
     float:left;
-    width: 20%;
-    height: 250px;
+        width: 260px;
     padding: 0px;
     overflow: hidden;
-margin-right: 27px;
-    margin-left: 7px;
+margin-right: 2.1%;
+    margin-left: 2.8%;
 background-color: rgb(220,220,220);
     }
 
 
+    .panel5{
 
+      width: 100%;
+      padding: 0px;
+      overflow: hidden;
+    margin-right: 2.1%;
+      margin-left: 0.1%;
+    background-color: rgb(220,220,220);
+  position:relative;
+  display:none;
+      }
+      .kolona6{
+          float:left;
+              width: 260px;
+          padding: 0px;
+          overflow: hidden;
+      margin-right: 2.1%;
+          margin-left: 2.8%;
+          word-wrap: break-word;
+      /*    outline-offset: 85px;
+          border: 1px solid dimgrey;*/
+      background-color: rgb(220,220,220);
+          }
+
+          .panel6{
+
+            width: 100%;
+            padding: 0px;
+            overflow: hidden;
+          margin-right: 2.1%;
+            margin-left: 0.1%;
+          background-color: rgb(220,220,220);
+      	position:relative;
+      	display:none;
+            }
+            .kolona3{
+                float:left;
+                width: 260px;
+              padding: 0px;
+                overflow: hidden;
+            margin-right: 2.1%;
+                margin-left: 2.8%;
+            background-color: rgb(220,220,220);
+                }
+
+                .panel3{
+
+                  width: 100%;
+                  padding: 0px;
+                  overflow: hidden;
+                margin-right: 2.1%;
+                  margin-left: 0.1%;
+                background-color: rgb(220,220,220);
+            	position:relative;
+            	display:none;
+                  }
+                  .kolona4{
+                      float:left;
+                        width: 260px;
+                      padding: 0px;
+                      overflow: hidden;
+                  margin-right: 2.1%;
+                      margin-left: 2.8%;
+                  background-color: rgb(220,220,220);
+                      }
+
+                      .panel4{
+
+                        width: 100%;
+                        padding: 0px;
+                        overflow: hidden;
+                      margin-right: 2%;
+                        margin-left: 0.1%;
+                      background-color: rgb(220,220,220);
+                  	position:relative;
+                  	display:none;
+                        }
 .stopfloating{clear:left;
+margin: 40px;
+
+border-width: 1px;
+border-color: lightgrey;
+opacity: 0.2;
 }
-td a{color:green;}
+.stopfloating2{clear:left;
 
-    margin-left: 10px;
-    margin-right: 25px;
-background-color: rgb(210,210,210);
-    }
-
+margin: 0px;
+border: 1.5px solid green;
+border-width: 100%;
 
 
-.stopfloating{clear:left;}
+}
+
+i {
+  border: solid rgb(100,100,100);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  position: relative;left:165px;
+}
+.shigjeta{position: relative;left: 155px;}
+
+.right1{position: relative;left: 165px;}
+.dots{position: relative;left: 160px;}
+.shenja{position: relative;right: 150px;}
+
 .kolona1{
+   background-image: linear-gradient(#1a1a1a,#404040);
   float:left;
-  width: 700px;
+  width: 400px;
+padding: 2px;
+  }
+  .tabela_video{
+    float: left;
+
   }
 
+
    .kolona2{
+
      float:left;
      width: 150px;
-    margin-right: 17px;
+    margin-right: 17px; }
 
-   }
-   nav ul li |{color:red;}
+    .kolonaform{
+      position:relative;
+      left:950px;
+      bottom: 90px;
+      width: 180px;
+      color:white;
+     margin-right: 17px;
+       background:#101010;
+    }
+    .fgaleri{
+      float:left;
+      width:300px;
+    }
+    .videot{
+
+    width: 200px;
+    height: 400px;
+  position: relative;
+ left:5.5%;
+  }
+
+
+   nav ul li {color:red;}
 div p a{color:#228B22;}
 div  a{color:#228B22;}
 nav ul li{list-style: none;
           display: inline;
-          margin-left: 50px;
+          margin-left: 45px;
+          padding-right: 10px;
           text-decoration: none;
-        color:white;}
+          color:white;
+         border-right:  1px solid #555;
+         text-shadow:  5px -5px 6px dimgrey;
+
+      }
+
+ nav li:last-child {
+  border-right:none;
+}
 header nav{
-  padding: 25px;
-  margin-left: 50%;
+padding: 25px;
+margin-left: 50%;
+margin-left:50%;
 }
 nav a{color:white;
 text-decoration:none;}
 nav a:hover{color:#228B22;}
-a{text-decoration :none;
-color:lime;}
+a{text-decoration :none;}
+
 header,h3{
 background-color: black;
 }
 
-.formulari {
-
-  position: relative;left:1020px;
-  position: relative;bottom: 20px;
+.tdata1{
+width:200px;
+height:100px;
+vertical-align: top;
+padding: 5px;
 }
+.tpaneli1{
+  width:200px;
+vertical-align: top;
+padding: 5px;
+  display:none;
+}
+.tdata2{
+width:200px;
+height:100px;
+padding: 5px;
+vertical-align: top;
+}
+.tpaneli2{
+  width:200px;
+  padding: 5px;
+vertical-align: top;
+  display:none;
+}
+.tdata3{
+width:200px;
+height:100px;
+padding: 5px;
+vertical-align: top;
+}
+.tpaneli3{
+  width:200px;
+vertical-align: top;
+padding: 5px;
+  display:none;
+}
+.tdata4{
+width:200px;
+height:100px;
+padding: 5px;
+vertical-align: top;
+}
+.tpaneli4{
+  width:200px;
+vertical-align: top;
+padding: 5px;
+  display:none;
+}
+.tdata5{
+  width:200px;
+height:100px;
+padding: 5px;
+vertical-align: top;}
+
+.tpaneli5{
+  width:200px;
+vertical-align: top;
+padding: 5px;
+  display:none;}
+
+  .tdata6{
+    width:200px;
+  height:100px;
+  padding: 5px;
+  vertical-align: top;}
+
+  .tpaneli6{
+    width:180px;
+  vertical-align: top;
+  padding: 5px;
+  position: relative;
+    display:none;}
+
+.photos{
+-webkit-transition: -webkit-transform: width 3s;
+-moz-transition:  -moz-transform:width 3s;
+-o-transition:  -o-transform:width 3s;
+}
+.photos:hover{
+  /*padding-left: 35px;
+  -webkit-transform: scale(3,3)
+  -moz-transform:scale(3,3);
+  -o-transform:scale(3,3);*/
+  width: 150px;
+  height: 150px;
+
+}
+.bimg{
+  width: 250px;
+padding: 1%;
+  position: relative;
+ left:3.5%;
+  background-image: url(images/paper.jpg);
+  background-position: right;
+  background-repeat: repeat;
+  background-attachment: scroll;}
+
+
+
+.multicolumns {
+  position: relative;
+
+  padding: 10px;
+
+    height: 300px;
+  -webkit-column-count: 4; /* Chrome, Safari, Opera */
+  -moz-column-count: 4; /* Firefox */
+  column-count: 4;/*Standard*/
+  -webkit-column-gap: 30px;
+  -moz-column-gap: 30px;
+  column-gap: 30px;
+  -webkit-column-rule: 1px solid lightblue;
+  -moz-column-rule: 1px solid lightblue;
+  column-rule: 1px solid lightblue;
+}
+@media handheld and (max-width:380px;){
+  .multicolumns {
+    position: relative;
+
+    width: 100%;
+    height: 40%;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;/*Standard*/
+    -webkit-column-gap: 10px;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+    -webkit-column-rule: 1px solid lightblue;
+    -moz-column-rule: 1px solid lightblue;
+    column-rule: 1px solid lightblue;
+  }
+
+}
+
+
+
+
+
+
+.lista1{
+
+  list-style-type: square;
+  list-style-position: inside;
+
+}
+
+.button{
+ color:white;
+ border-radius:3px;
+ width:80px;
+ height:30px;
+ background-color:lime;
+ border-color:lime;
+}
+
+
+.aboutUs{
+
+  color: dimgrey;
+ border-radius: 5px;
+  border: 1px groove dimgrey;
+  overflow-x: hidden;
+  padding: 25px;
+
+}
+.contactUs{
+
+  color: dimgrey;
+ padding: 35px;
+}
+.footerindex{
+
+      float:left;
+        width:250px;
+        height: 270px;
+      padding: 0px;
+      overflow: hidden;
+  margin-right: 1%;
+      margin-left: 1%;
+
+
+
+}
+
 footer{
+
   background-color: black;
-  padding:55px;
+padding: 55px;
   background-image: url(red);
 }
 footer div ul{color:white;
