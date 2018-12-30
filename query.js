@@ -29,3 +29,8 @@ $(function(){
                                                                $(".tpaneli6").slideToggle("slow")
                                                             });
                                                          });
+
+
+
+
+                                                        
