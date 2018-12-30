@@ -261,10 +261,10 @@ i {
   transform: rotate(-45deg);
   position: relative;left:165px;
 }
-.shigjeta{position: relative;left: 155px;}
+.shigjeta{position: relative;left: 145px;}
 
-.right1{position: relative;left: 200px;}
-.dots{position: relative;left: 190px;}
+.right1{position: relative;left: 190px;}
+.dots{position: relative;left: 180px;}
 
 .kolona1{
    background-image: linear-gradient(#1a1a1a,#404040);
@@ -338,73 +338,73 @@ background-color: black;
 }
 
 .tdata1{
-width:200px;
+width:230px;
 height:100px;
 vertical-align: top;
 padding: 5px;
 }
 .tpaneli1{
-  width:200px;
+  width:230px;
 vertical-align: top;
 padding: 5px;
   display:none;
 }
 .tdata2{
-width:200px;
+width:230px;
 height:100px;
 padding: 5px;
 vertical-align: top;
 }
 .tpaneli2{
-  width:200px;
+  width:230px;
   padding: 5px;
 vertical-align: top;
   display:none;
 }
 .tdata3{
-width:200px;
+width:230px;
 height:100px;
 padding: 5px;
 vertical-align: top;
 }
 .tpaneli3{
-  width:200px;
+  width:230px;
 vertical-align: top;
 padding: 5px;
   display:none;
 }
 .tdata4{
-width:200px;
+width:230px;
 height:100px;
 padding: 5px;
 vertical-align: top;
 }
 .tpaneli4{
-  width:200px;
+  width:230px;
 vertical-align: top;
 padding: 5px;
   display:none;
 }
 .tdata5{
-  width:200px;
+  width:150px;
 height:100px;
 padding: 5px;
 vertical-align: top;}
 
 .tpaneli5{
-  width:200px;
+  width:150px;
 vertical-align: top;
 padding: 5px;
   display:none;}
 
   .tdata6{
-    width:200px;
+    width:150px;
   height:100px;
   padding: 5px;
   vertical-align: top;}
 
   .tpaneli6{
-    width:180px;
+    width:150px;
   vertical-align: top;
   padding: 5px;
   position: relative;
