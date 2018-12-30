@@ -408,15 +408,17 @@ padding: 5px;
     display:none;}
 
 .photos{
--webkit-transition: -webkit-transform: 3s;
--moz-transition:  -moz-transform: 3s;
--o-transition:  -o-transform: 3s;
+-webkit-transition: -webkit-transform: width 3s;
+-moz-transition:  -moz-transform:width 3s;
+-o-transition:  -o-transform:width 3s;
 }
 .photos:hover{
-  padding-left: 35px;
-  -webkit-transform:scale(3,3);
+  /*padding-left: 35px;
+  -webkit-transform: scale(3,3)
   -moz-transform:scale(3,3);
-  -o-transform:scale(3,3);
+  -o-transform:scale(3,3);*/
+  width: 150px;
+  height: 150px;
 
 }
 .multicolumns {
