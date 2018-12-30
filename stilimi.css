@@ -312,6 +312,19 @@ padding: 2px;
   right: 240px;
 }
 
+.grid-container {
+  width:180px;
+  height:275px;
+  position: relative;
+  left:200px;
+  padding: 10px;
+  grid-gap: 2px ;
+  
+  display: inline-grid;
+  background-color: dimgrey;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
    nav ul li {color:red;}
 div p a{color:#228B22;}
 div  a{color:#228B22;}
