@@ -11,11 +11,11 @@
   <script src=query.js>  </script>
   <script src=query2.js>  </script>
 <script src=welcome.js></script>
-<<<<<<< HEAD
-<script src=sesionet.js></script>
-=======
 
->>>>>>> f62cce37abf925ed155ea11736760054a4ae4275
+<script  src=sesionet.js>
+
+</script>
+
 
 <style type="text/css">
   a{color:lime;}
@@ -351,16 +351,22 @@ Arteve ka vendosur n&euml; mbylljen e “Onufrit” dhe rikonceptimin e programi
 <br>
 
 
-<form onload="getlocalstorage()" method="get" action="http://www.randyconnolly.com/tests/process.php" >
-  <input name="name" type="text" placeholder="Name" id="username" style="background-color:lightgrey; border-radius:3;width:230px; height:20px;"><br><br>
-  <input name="email" type="email" placeholder="Email" id="mail" style="background-color:lightgrey; border-color:dimgrey; border-radius:3px;width:230px;height:20px;" ><br><br>
-  <input name="password" type="password" placeholder="Password" id="pass" style="background-color:lightgrey; border-color:dimgrey; border-radius:3px;width:230px;height:20px;" ><br><br>
+<form id="localStorage" method="get" action="# >
+ <input name="name" type="text" placeholder="Name" id="name" style="background-color:lightgrey; border-radius:3;width:230px; height:20px;"><br><br>
+ <input name="email" type="email" placeholder="Email" id="email"  style="background-color:lightgrey; border-color:dimgrey; border-radius:3px;width:230px;height:20px;" ><br><br>
+<input name="pass" type="password" placeholder="Password" id="pass" style="background-color:lightgrey; border-color:dimgrey; border-radius:3px;width:230px;height:20px;" ><br><br>
 
-  <button type="submit" class="button" onclick="store" >Submit</button>
-  <span id="span1"></span>
+  <button type="submit"onclick="clickCounter()" class="button"  >Submit</button>
+<p id="result" style="color:white;float:right;"></p>
 </form>
+
+
+
 </div>
+
+
 <br>
+
 <p style="font-weight:bold; color:dimgrey; padding:15px; ">
 <br class="stopfloating">
 

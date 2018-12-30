@@ -1,21 +1,13 @@
-if (localStorage) {
-  document.write('Local storage mbeshtetet');
-}
-else {
-  document.write('Local storage nuk mbeshtetet');
-}
-funksion store()
-{
-  localStorage.name=document.getElementsById('username')
-  localStorage.email=document.getElementsById('mail')
-  localStorage.password=document.getElementsId('pass')
-
-}
-function getlocalstorage(){
-  if(localStorage.name)
-  {
-    document.getElementById('span1').innerHTML=localStorage.name;
-    document.getElementById('span1').innerHTML=localStorage.email;
-    document.getElementById('span1').innerHTML=localStorage.password;
+function clickCounter() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.clickcount) {
+      localStorage.clickcount = Number(localStorage.clickcount)+1;
+    } else {
+      localStorage.clickcount = 1;
+    }
+    document.getElementById("result").innerHTML = "Submit është bërë " + localStorage.clickcount + " herë";
+    writeln("result");
+  } else {
+    document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
   }
 }
