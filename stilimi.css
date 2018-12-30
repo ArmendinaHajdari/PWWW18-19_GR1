@@ -305,7 +305,12 @@ padding: 2px;
   position: relative;
  left:5.5%;
   }
+.vgs{
 
+  position: relative;
+  top:80px;
+  right: 240px;
+}
 
    nav ul li {color:red;}
 div p a{color:#228B22;}
