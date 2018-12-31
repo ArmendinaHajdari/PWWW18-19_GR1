@@ -284,6 +284,17 @@ padding: 2px;
      float:left;
      width: 150px;
     margin-right: 17px; }
+    .sportform{
+      position:relative;
+      left:1090px;
+      bottom: 0px;
+      width:380px;
+
+      color:white;
+     margin-right: 7px;
+      
+
+    }
 
     .kolonaform{
       position:relative;
