@@ -1,0 +1,34 @@
+CACHE MANIFEST
+
+
+CACHE:
+
+index.html
+mode.html
+sport.html
+art.html
+teknologji.html
+
+# styles & scripts
+css/stilimi.css
+js/query.js
+js/sesioni.js
+js/storage.js
+js/canvastitulli.js
+js/backgroungchange.js
+
+# images
+images/logo1.jpg
+images/indexsport.jpg
+images/indexmode.jpg
+images/TechnologyBig.jpg
+images/m1.jpg
+images/m2.jpg
+
+
+
+NETWORK:
+login.php
+
+FALLBACK:
+//offline.html
