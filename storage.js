@@ -8,6 +8,6 @@ function clickCounter() {
     document.getElementById("result").innerHTML = "Submit është bërë " + localStorage.clickcount + " herë";
 
   } else {
-    document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+    document.getElementById("result").innerHTML = "Nuk perkrahet nga browseri juaj";
   }
 }

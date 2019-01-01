@@ -5,8 +5,8 @@ function clickCounter() {
     } else {
       sessionStorage.clickcount = 1;
     }
-    document.getElementById("result").innerHTML = "You have clicked the button " + sessionStorage.clickcount + " time(s) in this session.";
+    document.getElementById("result").innerHTML = "Submit është bërë" + sessionStorage.clickcount + " herë";
   } else {
-    document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+    document.getElementById("result").innerHTML = "Nuk perkrahet nga browseri juaj";
   }
 }
