@@ -10,12 +10,28 @@ art.html
 teknologji.html
 
 # styles & scripts
-css/stilimi.css
-js/query.js
-js/sesioni.js
-js/storage.js
-js/canvastitulli.js
-js/backgroungchange.js
+stilimi.css
+query.js
+sesioni.js
+storage.js
+canvastitulli.js
+backgroungchange.js
+canvas.js
+geolocation.js
+javascript.js
+jquery-3.3.1.min.js
+query2.js
+sesionet.js
+welcome.js
+validForm.js
+numbValidation.js
+
+
+
+
+
+
+
 
 # images
 images/logo1.jpg
@@ -25,10 +41,24 @@ images/TechnologyBig.jpg
 images/m1.jpg
 images/m2.jpg
 
+#audiot
+audiot/audio1.mp3
+audiot/audio2.mp3
+
+
+#videot
+videos/ghRun16.mp4
+videos/milkyWay.mp4
+
+
+
+
+
+
 
 
 NETWORK:
-login.php
+network.html
 
 FALLBACK:
-//offline.html
+.fallback.html
