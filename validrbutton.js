@@ -4,16 +4,14 @@ function validgjinia()
 var x=0;
 try
 {
-  if(mgjinia.checked)
-{
-x++;
-} if(fgjinia.checked)
+  if( (mgjinia.checked) || (fgjinia.checked) )
 {
 x++;
 }
+
 if(x==0)
 {
-alert('Select Male/Female');
+alert("Select Male/Female");
 mgjinia.focus();
 return false;
 }
@@ -21,12 +19,13 @@ else
 {
 alert('Form Successfully Submitted');
 window.location.reload()
-return true;}
+return true;
+}
 }
 catch ( e ) {
                    alert("Error: " + e.description );
                }
                finally {
                    alert("Finally block will always execute!" );
-               } 
+               }
 }
