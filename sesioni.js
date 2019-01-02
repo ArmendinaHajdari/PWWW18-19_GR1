@@ -1,4 +1,4 @@
-function clickCounter() {
+function clickCounter1(){
   if (typeof(Storage) !== "undefined") {
     if (sessionStorage.clickcount) {
       sessionStorage.clickcount = Number(sessionStorage.clickcount)+1;

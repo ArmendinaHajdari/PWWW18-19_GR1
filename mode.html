@@ -11,7 +11,7 @@
 <script src="javascript.js" ></script>
 <script src=query.js>  </script>
 <script src=query2.js>  </script>
-<script  src=storage.js></script>
+
 <script src=cache.js></script>
 
 <style type="text/css">
@@ -310,14 +310,14 @@ të mos mendojmë edhe për tualetin që na është i nevojshëm për natën më
 <br class="stopfloating">
   <div class="kolonaform" >
     <p>Vler&euml;so:</p>
-  <form name="formgj" method="get" action="http://www.randyconnolly.com/tests/process.php" onsubmit="return vgjinia()">
+  <form  method="get" action="http://www.randyconnolly.com/tests/process.php" onsubmit="return validgjinia()">
     <input name="value" type="checkbox">M&euml; p&euml;lqeu kjo webfaqe!<br>
-    <input name="gjinia" type="radio" > Mashkull<br>
-    <input name="gjinia" type="radio" > Fem&euml;r<br>
+    <input name="gjinia" type="radio" onclick="validgjinia()" > Mashkull<br>
+    <input name="gjinia" type="radio" onclick="validgjinia()" > Fem&euml;r<br>
     <button type="submit"onclick="clickCounter()" class="button"  >Submit</button>
   <p id="result" style="color:white;float:right;"></p>
   </form>
-  <script src=validgj.js></script>
+  <script src="validrbutton.js"> </script>
 
   </div>
 
