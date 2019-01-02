@@ -1,6 +1,6 @@
 
 window.onload = function() {
-    var canvas = document.getElementById("myCanvas");
+    var canvas = document.getElementById("myCanvas");//LOCAL VARIABLE
     var ctx = canvas.getContext("2d");
 
     var img = document.getElementById("scream");

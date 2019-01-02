@@ -1,5 +1,5 @@
 function myFunction() {
-  var x, text;
+  var x, text;//local
 
   // Get the value of the input field with id="numb"
   x = document.getElementById("numb").value;

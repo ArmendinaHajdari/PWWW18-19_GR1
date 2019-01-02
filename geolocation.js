@@ -1,5 +1,5 @@
 
-var xgeo = document.getElementById("demo");
+var xgeo = document.getElementById("demo");//GLOBAL VARIABLE
 
 function getLocation() {
   if (navigator.geolocation) {
