@@ -5,10 +5,18 @@ function myFunction() {
   x = document.getElementById("numb").value;
 
   // If x is Not a Number or less than one or greater than 10
-  if (isNaN(x) || x < 1 || x > 10) {
-    text = "Input not valid";
-  } else {
-    text = "Input OK";
+try{
+    if (x<11 && x>0)
+    {alert("input valid");}
   }
-  document.getElementById("demo").innerHTML = text;
+
+  catch{
+    document.getElementById("demo").innerHTML = err.message;
+  }
+finally {
+  alert('perfundim');
 }
+}
+
+/*  document.getElementById("demo").innerHTML = text;
+}*/
