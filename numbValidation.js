@@ -8,10 +8,12 @@ function myFunction() {
 try{
     if (x<11 && x>0)
     {alert("input valid");}
+  /*  else{alert('input jovalid');}*/
   }
 
-  catch{
-    document.getElementById("demo").innerHTML = err.message;
+  catch(e){
+    alert("input jo valid");
+
   }
 finally {
   alert('perfundim');
