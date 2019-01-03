@@ -41,7 +41,7 @@ html,body,footer,hgroup,nav,article,section,figure,figcaption,h1,h2,h3,ul,li,bod
     cursor: pointer;
     padding: 16px;
     position: relative;bottom:130px;
-    position: relative;left:1250px;
+    position: relative;left:94%;/*1025px*/
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -76,7 +76,7 @@ html,body,footer,hgroup,nav,article,section,figure,figcaption,h1,h2,h3,ul,li,bod
     color: white; /* Grey text */
     width: 460px; /* Full width */
     padding: 20px; /* Some padding */
-    margin-left: 850px;
+    margin-left: 1018px;/*850*/
 
   }
   .description{
@@ -138,16 +138,7 @@ ol{
 }
 h1{padding-left: 5px;
 padding-top: 15px;}
-/*te vlersimi na duhet
-.formulari1{
 
-  width:15%;
-  height: 10%;
-  position: relative;
-  left: 60%;
-   bottom: 25%;
-   }
-*/
 
 .kolona5{
     float:left;
@@ -314,13 +305,23 @@ padding: 2px;
     width: 200px;
     height: 400px;
   position: relative;
- left:5.5%;
+ left:1.5%;
   }
+  .bimg{
+    width: 250px;
+  padding: 1%;
+    position: relative;
+   left:6%;
+   bottom: 20px;
+    background-image: url(images/paper.jpg);
+    background-position: right;
+    background-repeat: repeat;
+    background-attachment: scroll;}
 .vgs{
 
   position: relative;
   top:80px;
-  right: 240px;
+  right: 200px;
 }
 .grid-container {
   width:180px;
@@ -454,15 +455,7 @@ padding: 5px;
   height: 150px;
 
 }
-.bimg{
-  width: 250px;
-padding: 1%;
-  position: relative;
- left:3.5%;
-  background-image: url(images/paper.jpg);
-  background-position: right;
-  background-repeat: repeat;
-  background-attachment: scroll;}
+
 
 
 
