@@ -316,7 +316,9 @@ padding: 2px;
     background-image: url(images/paper.jpg);
     background-position: right;
     background-repeat: repeat;
-    background-attachment: scroll;}
+    background-attachment: scroll;
+    background-origin: padding-box;//The background image starts from the upper left corner of the padding edge.
+  }
 .vgs{
 
   position: relative;
