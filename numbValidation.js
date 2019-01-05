@@ -1,21 +1,16 @@
 function myFunction() {
-  var x, text;//local
-  // Get the value of the input field with id="numb"
+  var message, x;
+  message = document.getElementById("p01");
+  message.innerHTML = "";
   x = document.getElementById("numb").value;
-
-  // If x is Not a Number or less than one or greater than 10
-try{
-        if (x<11 && x>0)
-        {alert("input valid");}
-        else{ message:('input jovalid');}
-    }
-
-  catch(e){
-           alert(e.message);}
-finally {
-         alert('perfundim');}
-
+  try {
+    if(x == "")  throw "vendos nje numer brenda rangut";
+    if(isNaN(x)) throw "vendos nje numer brenda rangut";
+    x = Number(x);
+    if(x < 1)  throw "vendos nje numer brenda rangut";
+    if(x > 10)   throw "vendos nje numer brenda rangut";
+  }
+  catch(err) {
+    message.innerHTML = "" + err;
+  }
 }
-
-/*  document.getElementById("demo").innerHTML = text;
-}*/
