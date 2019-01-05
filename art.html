@@ -13,6 +13,7 @@
 <script src=query2.js>  </script>
 <script src="canvastitulli.js"></script>
 <script src=cache.js></script>
+<script src=hide_show.js>  </script>
 
 
 <style type="text/css">
@@ -284,6 +285,7 @@ Sipas Kuba Shand-Baptistes, kapitujt kritikues ndaj presidentit Trump b&euml;hen
           stroke="black" stroke-width="1" fill="red" />
 Sorry, your browser does not support inline SVG.
 </svg>
+
 </div>
 <div class="videot tabela_video" >
 <p style="font-weight:bold:">Galeri <span style="font-style:italic;">piktura m&euml; e shitur e vitit: </span> <br>
@@ -291,7 +293,8 @@ Sorry, your browser does not support inline SVG.
 <img id="scream" src="images/scream.png" width="220px" height="277px"  alt="The Scream">
 Your browser does not support the HTML5 canvas tag.
 </canvas>
-
+<button id="hide">Hide</button>
+ <button id="show">Show</button>
 <script>
 window.onload = function() {
     var canvas = document.getElementById("myCanvas");
