@@ -287,6 +287,12 @@ height: 200px;
 
 
     }
+    .kolonaformS{
+      float: left;
+      position:relative;
+      left: 1%;
+      padding: 1%;
+    }
 
     .kolonaform{
       float: left;
