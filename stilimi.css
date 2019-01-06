@@ -282,8 +282,10 @@ height: 200px;
     .sportform{
       float: left;
       position:relative;
-      width:300px;
+      width:380px;
+bottom: 5%;
       color:white;
+     margin-right: 7px;
 
 
     }
