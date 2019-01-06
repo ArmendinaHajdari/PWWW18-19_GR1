@@ -311,7 +311,7 @@ padding: 2px;
     width: 250px;
   padding: 1%;
     position: relative;
-   left:6%;
+   left:2%;
    bottom: 20px;
     background-image: url(images/paper.jpg);
     background-position: right;
@@ -320,9 +320,8 @@ padding: 2px;
     background-origin: padding-box;//The background image starts from the upper left corner of the padding edge.
   }
 .vgs{
+float:right;
 
-  position: relative;
-  top:150px;
   border: 1px dashed pink;
   border-radius: 3px;
 }
