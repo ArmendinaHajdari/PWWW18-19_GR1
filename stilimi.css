@@ -42,7 +42,7 @@ html,body,footer,hgroup,nav,article,section,figure,figcaption,h1,h2,h3,ul,li,bod
     cursor: pointer;
     padding: 16px;
     position: relative;bottom:130px;
-    position: relative;left:92%;/*1025px*/
+    position: relative;left:89%;/*1025px*/
     color: white;
     font-weight: bold;
     font-size: 18px;
