@@ -67,7 +67,7 @@ html,body,footer,hgroup,nav,article,section,figure,figcaption,h1,h2,h3,ul,li,bod
 
 
   .mySlides .content {
-    position: absolute; /* Position the background text */
+    position: relative; /* Position the background text */
     bottom: 5px;
     top:0px        ;
     /* At the bottom. Use top:0 to append it to the top */
@@ -87,7 +87,7 @@ text-align: center;
 position: relative;left: 20px;
 }
 .mySlides .content1 {
-  position:absolute; /* Position the background text */
+  position:relative; /* Position the background text */
   bottom: 5px;
   top:150px        ;
   /* At the bottom. Use top:0 to append it to the top */
