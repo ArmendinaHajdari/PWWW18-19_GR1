@@ -280,11 +280,10 @@ height: 200px;
    }
 
     .sportform{
+      float: left;
       position:relative;
-      left:1090px;
-      bottom: 0px;
       width:380px;
-
+bottom: 5%;
       color:white;
      margin-right: 7px;
 
@@ -292,9 +291,9 @@ height: 200px;
     }
 
     .kolonaform{
+      float: left;
       position:relative;
-      left:950px;
-      bottom: 90px;
+      left: 1%;
       width: 180px;
       color:white;
      margin-right: 17px;
