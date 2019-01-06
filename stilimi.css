@@ -9,6 +9,7 @@ html,body,footer,hgroup,nav,article,section,figure,figcaption,h1,h2,h3,ul,li,bod
 
   .mySlides {
   position:relative;
+
   top:0px;
 
 
@@ -67,16 +68,16 @@ html,body,footer,hgroup,nav,article,section,figure,figcaption,h1,h2,h3,ul,li,bod
 
 
   .mySlides .content {
-    position: relative; /* Position the background text */
+    position: absolute; /* Position the background text */
     bottom: 5px;
-    top:0px        ;
+    top:0px;
     /* At the bottom. Use top:0 to append it to the top */
     background: rgb(0, 0, 0); /* Fallback color */
     background: rgba(0, 0, 0, 0.40); /* Black background with 0.5 opacity */
     color: white; /* Grey text */
     width: 460px; /* Full width */
     padding: 20px; /* Some padding */
-    margin-left: 850px;/*850*/
+    margin-left: 600px;/*850*/
 
   }
   .description{
@@ -87,7 +88,7 @@ text-align: center;
 position: relative;left: 20px;
 }
 .mySlides .content1 {
-  position:relative; /* Position the background text */
+  position:absolute; /* Position the background text */
   bottom: 5px;
   top:150px        ;
   /* At the bottom. Use top:0 to append it to the top */
