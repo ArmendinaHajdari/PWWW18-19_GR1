@@ -289,6 +289,12 @@ bottom: 5%;
 
 
     }
+    .kolonaformS{
+      float: left;
+      position:relative;
+      left: 1%;
+      padding: 1%;
+    }
 
     .kolonaform{
       float: left;
