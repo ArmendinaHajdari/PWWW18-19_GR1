@@ -262,6 +262,7 @@ i {
    background-image: linear-gradient(#1a1a1a,#404040);
   float:left;
   width: 400px;
+  height: 150px;
 padding: 2px;
   }
   .tabela_video{
@@ -274,23 +275,20 @@ padding: 2px;
 
      float:left;
      width: 150px;
-    margin-right: 17px; }
+  }
     .sportform{
+      float:left;
       position:relative;
-      left:1090px;
       bottom: 0px;
       width:380px;
 
       color:white;
-     margin-right: 7px;
 
 
     }
 
     .kolonaform{
       position:relative;
-      left:950px;
-      bottom: 90px;
       width: 180px;
       color:white;
      margin-right: 17px;
