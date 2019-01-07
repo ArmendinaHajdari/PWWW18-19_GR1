@@ -265,11 +265,7 @@ i {
 .kolona1{
    background-image: linear-gradient(#1a1a1a,#404040);
   float:left;
-<<<<<<< HEAD
   width: 350px;
-=======
-  width: 400px;
->>>>>>> 94e0224c7a19ca9b51a512e2f9de2d6e8b016fbc
   height: 150px;
 padding: 2px;
   }
