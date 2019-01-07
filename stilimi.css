@@ -322,8 +322,9 @@ padding: 2px;
 .vgs{
 
   position: relative;
-  top:80px;
-  right: 200px;
+  top:150px;
+  border: 1px dashed pink;
+  border-radius: 3px;
 }
 .grid-container {
   width:180px;
