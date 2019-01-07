@@ -8,6 +8,5 @@ if (!filter.test(name.value)) {
        return false;
      }
 
-     if (filter.test(name.value)) {
-       return true;}
+     
     }
