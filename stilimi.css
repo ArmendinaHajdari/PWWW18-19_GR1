@@ -278,7 +278,6 @@ padding: 2px;
    .kolona2{
 
      float:left;
-<<<<<<< HEAD
      width: 250px;
 height: 200px;
    }
@@ -286,14 +285,12 @@ height: 200px;
     .sportform{
       float: left;
       position:relative;
-=======
      width: 150px;
   }
     .sportform{
       float:left;
       position:relative;
       bottom: 0px;
->>>>>>> 94e0224c7a19ca9b51a512e2f9de2d6e8b016fbc
       width:380px;
 bottom: 5%;
       color:white;
@@ -310,10 +307,7 @@ bottom: 5%;
     .kolonaform{
       float: left;
       position:relative;
-<<<<<<< HEAD
       left: 1%;
-=======
->>>>>>> 94e0224c7a19ca9b51a512e2f9de2d6e8b016fbc
       width: 180px;
       color:white;
      margin-right: 17px;
